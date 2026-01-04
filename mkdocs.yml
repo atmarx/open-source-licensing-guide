@@ -1,0 +1,164 @@
+site_name: "Open Source Licensing Guide"
+site_description: "Understanding Your Options"
+site_author: "Andrew Marx"
+site_url: "" # no url yet
+
+# Theme configuration
+theme:
+  name: material
+  language: en
+  
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: sage
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: sage
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  font:
+    text: Lora
+    code: Fira Code
+  
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - content.footnote.tooltips
+  
+  icon:
+    repo: fontawesome/brands/github
+  
+  custom_dir: docs/overrides
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - minify:
+      minify_html: true
+
+# Markdown extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.blocks.caption
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
+
+# Navigation
+nav:
+  - Home: index.md
+  - Preface: preface.md
+  - Concepts:
+    - concepts/index.md
+    - Free as in Freedom: concepts/libre-vs-gratis.md
+    - Permissive vs Copyleft: concepts/permissive-vs-copyleft.md
+    - Rights & Obligations: concepts/rights-and-obligations.md
+    - Common Misconceptions: concepts/common-misconceptions.md
+  - Software Licenses:
+    - licenses/index.md
+    - Permissive:
+      - MIT: licenses/permissive/mit.md
+      - Apache 2.0: licenses/permissive/apache-2.md
+      - BSD: licenses/permissive/bsd.md
+    - Copyleft:
+      - GPL: licenses/copyleft/gpl.md
+      - LGPL: licenses/copyleft/lgpl.md
+      - MPL 2.0: licenses/copyleft/mpl.md
+    - Other:
+      - Public Domain: licenses/other/public-domain.md
+      - AGPL: licenses/other/agpl.md
+      - Source Available: licenses/other/source-available.md
+  - Creative Commons:
+    - creative-commons/index.md
+    - CC BY: creative-commons/cc-by.md
+    - CC BY-SA: creative-commons/cc-by-sa.md
+    - CC BY-NC: creative-commons/cc-by-nc.md
+    - CC BY-ND: creative-commons/cc-by-nd.md
+    - CC0: creative-commons/cc0.md
+  - Guides:
+    - Choosing a License: guides/choosing-a-license.md
+    - Using Licensed Code: guides/using-licensed-code.md
+    - Attribution: guides/attribution.md
+  - Lessons Learned:
+    - lessons-learned/index.md
+    - The Classics:
+      - BSD Advertising Clause: lessons-learned/bsd-advertising-clause.md
+      - SCO vs. Linux: lessons-learned/sco-vs-linux.md
+      - Oracle v. Google: lessons-learned/oracle-v-google.md
+      - MySQL and MariaDB: lessons-learned/mysql-mariadb.md
+    - Corporate Pivots:
+      - React's License Scare: lessons-learned/react-license.md
+      - MongoDB and SSPL: lessons-learned/mongodb-sspl.md
+      - Elasticsearch Fork: lessons-learned/elasticsearch-opensearch.md
+      - HashiCorp and OpenTofu: lessons-learned/hashicorp-opentofu.md
+      - Redis Relicensing: lessons-learned/redis-relicensing.md
+      - Java Licensing: lessons-learned/java-licensing.md
+    - Quirks & Edge Cases:
+      - The JSON License: lessons-learned/json-license.md
+      - ZFS on Linux: lessons-learned/zfs-linux.md
+      - Busybox Enforcement: lessons-learned/busybox-enforcement.md
+      - VirtualBox: lessons-learned/virtualbox.md
+  - Reference:
+    - Quick Comparison: reference/quick-comparison.md
+    - Glossary: reference/glossary.md
+    - Sources: reference/sources.md
+
+# Copyright
+copyright: >
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/">© 2026 Andrew Marx — CC BY-NC 4.0</a>

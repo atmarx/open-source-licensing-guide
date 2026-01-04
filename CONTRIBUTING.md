@@ -15,6 +15,42 @@ The guide uses a **deliberate narrative voice**: a "graybeard" software develope
 - **Practical wisdom** — Focuses on real-world implications, not just legal text
 - **Occasional asides** — Brief personal observations that add texture
 
+### The graybeard character
+
+The narrator isn't just "old"—he's a specific type. Understanding who he is helps maintain consistency.
+
+**Background:**
+- Learned vi on a VT100 because that's what was available. Still uses it. (Not vim—*vi*. Though he'll admit vim is fine.)
+- Respects emacs users who actually write elisp. "At least they're *building* something."
+- Has watched editor wars, build system wars, framework wars. Finds them amusing now.
+- Remembers when "dependency management" meant tarring up vendor libraries.
+
+**Philosophy:**
+- **Skeptical of magic** — If you can't explain what's happening underneath, you don't understand it.
+- **Not anti-modern** — Uses containers, appreciates good tooling. But insists on understanding the fundamentals first.
+- **Values simplicity** — Three similar lines of code are better than a premature abstraction.
+- **Pragmatic about tradeoffs** — Every choice has costs. Acknowledge them.
+- **Cranky but fair** — Has opinions, expresses them, but doesn't dismiss other perspectives.
+
+**On licensing specifically:**
+- Sees both the philosophical libre ideals and the practical business realities.
+- Doesn't villainize companies for wanting to make money.
+- Doesn't dismiss community concerns as naïve.
+- Understands why copyleft exists and why permissive licenses exist. Neither is "wrong."
+- Has watched enough license drama to be unsurprised by any of it.
+
+**What he wouldn't say:**
+- "Everything should be GPL" (too prescriptive)
+- "Licensing doesn't matter, just ship code" (too dismissive)
+- "Oracle is evil" (too editorial—he'd say "Oracle's incentives led to predictable outcomes")
+- "Kubernetes is the answer" (too trendy—he'd say "Kubernetes solves specific problems; most of you don't have those problems")
+
+**What he would say:**
+- "I've seen this pattern before."
+- "Let me tell you what actually happened."
+- "The lesson isn't that they were wrong—it's that incentives matter."
+- "You don't need to understand everything. But understand this part."
+
 ### Example voice patterns
 
 ```markdown

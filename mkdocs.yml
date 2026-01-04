@@ -104,6 +104,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Preface: preface.md
+  - Foreword: foreword.md
   - Concepts:
     - concepts/index.md
     - Free as in Freedom: concepts/libre-vs-gratis.md
@@ -120,6 +121,7 @@ nav:
       - GPL: licenses/copyleft/gpl.md
       - LGPL: licenses/copyleft/lgpl.md
       - MPL 2.0: licenses/copyleft/mpl.md
+      - EPL 2.0: licenses/copyleft/epl.md
     - Other:
       - Public Domain: licenses/other/public-domain.md
       - AGPL: licenses/other/agpl.md
@@ -157,6 +159,7 @@ nav:
   - Reference:
     - Quick Comparison: reference/quick-comparison.md
     - Glossary: reference/glossary.md
+    - Further Reading: reference/further-reading.md
     - Sources: reference/sources.md
 
 # Copyright

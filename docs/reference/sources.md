@@ -62,6 +62,11 @@ Debian Project. "JSON License Discussion." Debian Legal Mailing List. 2005.
 
 ## E
 
+### Eclipse Public License 2.0
+<!-- slug: eclipse-public-license-20 -->
+Eclipse Foundation. "Eclipse Public License - v 2.0." August 2017.
+<a href="https://www.eclipse.org/legal/epl-2.0/">https://www.eclipse.org/legal/epl-2.0/</a>
+
 ### Elastic License Change Announcement
 <!-- slug: elastic-license-change-announcement -->
 Banon, Shay. "Doubling Down on Open." Elastic Blog. January 2021.
@@ -260,11 +265,4 @@ Source: Court records and reporting from Ars Technica, The Verge, and legal comm
 
 ---
 
-## Further Reading
-
-For deeper exploration of open source licensing history and philosophy:
-
-- Fogel, Karl. *Producing Open Source Software*. <a href="https://producingoss.com/">https://producingoss.com/</a>
-- Moody, Glyn. *Rebel Code: Linux and the Open Source Revolution*. 2001.
-- Raymond, Eric S. *The Cathedral and the Bazaar*. 1999.
-- Weber, Steven. *The Success of Open Source*. 2004.
+For books, other guides, and additional resources, see [Further Reading](further-reading.md).

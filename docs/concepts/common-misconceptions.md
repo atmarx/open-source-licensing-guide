@@ -12,7 +12,7 @@ I've watched companies get cease-and-desist letters because someone assumed "ope
 
 ## "If it's on GitHub, it's open source"
 
-**The reality:** Code visibility is not a license. If a repository has no LICENSE file, you have **no legal right** to use that code beyond looking at it. None. Copyright applies automatically to all creative work.
+**The reality:** Code visibility is not a license. If a repository has no LICENSE file, you have **no legal right** to use that code beyond looking at it. **None.** *Copyright applies **automatically** to all creative work.*
 
 GitHub's terms let you view and fork public repositories. That's about GitHub's platform, not about what you can do with the code itself.
 
@@ -51,7 +51,7 @@ Courts can tell the difference between genuine reimplementation and a find-and-r
 **The reality:** Open source is a development methodology and a licensing approach, not a business model. Many businesses are built on open source:
 
 - Red Hat was acquired for $34 billion
-- Elastic, MongoDB, HashiCorp—all publicly traded companies (though some have since abandoned open source licensing, which is its own lesson)
+- Elastic, MongoDB, HashiCorp—all publicly traded companies (though some have since abandoned open source licensing, [which is its own lesson](../lessons-learned/index.md))
 - Countless consultancies, hosting providers, and service businesses
 
 Business models include support contracts, hosted services, dual licensing, open core (open source base with proprietary additions), and more.

@@ -1,11 +1,15 @@
 # Redis Relicensing
 
 **Year:** 2024
+
 **Lesson:** The pattern continues
 
 ## What Happened
 
-In March 2024, Redis Ltd. announced they were changing the license for Redis from BSD-3-Clause to a dual license: RSALv2 (Redis Source Available License) and SSPL.[^redis-change]
+In March 2024, Redis Ltd. announced they were changing the license for Redis from [BSD-3-Clause](../licenses/permissive/bsd.md) to a dual license: RSALv2 (Redis Source Available License) and [SSPL](../licenses/other/source-available.md).[^redis-change]
+
+!!! terminal inline end ""
+    I've stopped being surprised. The pattern is locked in. The question isn't *whether* this can happen to a project, but *when*.
 
 Neither is open source. After more than 15 years as one of the most permissively licensed infrastructure projects, Redis was no longer open source.
 
@@ -17,11 +21,11 @@ The stated reason was, by now, familiar: cloud providers were offering Redis as 
 
 AWS, Google, Oracle, Ericsson, and Snap announced Valkey—a fork of the last BSD-licensed Redis, to be hosted at the Linux Foundation.[^valkey] Within days, the project had major corporate backing and a path to independence.
 
-The playbook from OpenSearch and OpenTofu was executed again, even faster.
+The [playbook from OpenSearch and OpenTofu](./hashicorp-opentofu.md) was executed again, even faster.
 
 ### Redict
 
-A separate fork, Redict, launched under the LGPL. It aimed for stronger copyleft protection while remaining open source—a different philosophical choice than Valkey's permissive approach.
+A separate fork, Redict, launched under the [LGPL](../licenses/copyleft/lgpl.md). It aimed for stronger [copyleft](../concepts/permissive-vs-copyleft.md) protection while remaining open source—a different philosophical choice than Valkey's permissive approach.
 
 ### Linux distribution responses
 
@@ -38,7 +42,7 @@ Fedora, Debian, and others began discussing removal of Redis and inclusion of Va
 | Terraform | 2023 | MPL | BSL | OpenTofu |
 | Redis | 2024 | BSD | RSALv2/SSPL | Valkey |
 
-This is no longer surprising. It's expected.
+This is no longer *surprising*. It's **expected**.
 
 ### Fork response time keeps shrinking
 
@@ -48,7 +52,7 @@ The infrastructure for forking major projects now exists. The playbook is establ
 
 ### The BSD license didn't protect anyone
 
-Redis was BSD-licensed—as permissive as possible. It didn't prevent the relicensing. Permissive licensing means the *current* code is free, but says nothing about future versions.
+Redis was [BSD-licensed](../licenses/permissive/bsd.md)—as [permissive](../concepts/permissive-vs-copyleft.md) as possible. It didn't prevent the relicensing. Permissive licensing means the *current* code is free, but says nothing about future versions.
 
 Only governance protects against relicensing, not license choice.
 

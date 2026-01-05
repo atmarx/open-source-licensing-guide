@@ -1,11 +1,12 @@
 # React's BSD+Patents Scare
 
 **Year:** 2017
+
 **Lesson:** Patent clauses matter, and community pressure works
 
 ## What Happened
 
-React, Facebook's wildly popular JavaScript library, was licensed under BSD-3-Clause with an additional patent grant. Sounds good, right? A permissive license *plus* explicit patent protection.
+React, Facebook's wildly popular JavaScript library, was licensed under [BSD-3-Clause](../licenses/permissive/bsd.md) with an additional patent grant. Sounds good, right? A [permissive license](../concepts/permissive-vs-copyleft.md) *plus* explicit patent protection.
 
 The problem was the patent grant's termination clause:
 
@@ -15,15 +16,18 @@ In plain English: if you sue Facebook for *any* patent infringement (not just pa
 
 ## Why It Was Problematic
 
+!!! terminal inline end ""
+    If your project targets enterprise adoption, your license *will* be reviewed by lawyers. They *will* find the problematic clauses.
+
 ### Asymmetric legal warfare
 
-Large companies have large patent portfolios. If Company X had a legitimate patent dispute with Facebook about, say, advertising technology, using React gave Facebook leverage: "Sue us and lose your React license."
+Large companies have large patent portfolios. If Company X had a legitimate patent dispute with Facebook about, say, advertising technology, using React gave Facebook leverage: *"Sue us and lose your React license."*
 
 For companies that had built their entire frontend on React, this was a real risk.
 
 ### Enterprise adoption freeze
 
-Legal departments noticed. Apache Software Foundation added Facebook's BSD+Patents license to their Category X list—"licenses that are NOT allowed at Apache."[^apache-category-x] This meant no Apache project could depend on React.
+**Legal departments noticed.** Apache Software Foundation added Facebook's BSD+Patents license to their Category X list—"licenses that are NOT allowed at Apache."[^apache-category-x] This meant no Apache project could depend on React.
 
 WordPress announced they would move away from React. Other major projects made similar statements.
 
@@ -33,7 +37,7 @@ The community was furious. Thousands of GitHub comments. Blog posts. Conference 
 
 ## Facebook's Response
 
-In September 2017, Facebook relicensed React under MIT.[^react-license-change] No patent clause. No termination trigger. Just MIT.
+In September 2017, Facebook relicensed React under [MIT](../licenses/permissive/mit.md).[^react-license-change] No patent clause. No termination trigger. Just MIT.
 
 They also relicensed Jest, Flow, Immutable.js, and other projects that had used the same license.
 
@@ -55,7 +59,7 @@ But the community *did* leave it. Apache banned it. WordPress abandoned it. The 
 
 ### Enterprise legal review matters
 
-Individual developers didn't notice the patent clause. Legal departments did. If your project targets enterprise adoption, your license will be reviewed by lawyers. They will find the problematic clauses.
+Individual developers didn't notice the patent clause. Legal departments did. This is the gap between how developers think about licensing and how enterprises do.
 
 ### License changes can be fast
 

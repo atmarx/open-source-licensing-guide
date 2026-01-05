@@ -18,12 +18,33 @@ Creative Commons (CC) licenses are designed for creative works—text, images, d
 
 Creative Commons licenses are modular. They combine four conditions:
 
-| Element | Symbol | Meaning |
-|---------|--------|---------|
-| **Attribution** | BY | Must credit the creator |
-| **ShareAlike** | SA | Derivatives must use same license |
-| **NonCommercial** | NC | No commercial use |
-| **NoDerivatives** | ND | No modifications allowed |
+<div class="grid cards two-column" markdown>
+
+-   :material-account-star:{ .lg .middle } **Attribution (BY)**
+
+    ---
+
+    Must credit the creator. Present in all CC licenses except CC0.
+
+-   :material-share-variant:{ .lg .middle } **ShareAlike (SA)**
+
+    ---
+
+    Derivatives must use the same license. The "copyleft" of Creative Commons.
+
+-   :material-currency-usd-off:{ .lg .middle } **NonCommercial (NC)**
+
+    ---
+
+    No commercial use allowed. *Not considered "Free Culture" or open source.*
+
+-   :material-pencil-off:{ .lg .middle } **NoDerivatives (ND)**
+
+    ---
+
+    No modifications allowed. *Not considered "Free Culture" or open source.*
+
+</div>
 
 ## The Six Licenses
 

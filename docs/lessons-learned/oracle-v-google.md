@@ -1,6 +1,7 @@
 # Oracle v. Google: The API Copyright War
 
 **Era:** 2010-2021
+
 **Lesson:** API copyrightability is complicated, and large companies will litigate for decades
 
 ## What Happened
@@ -12,6 +13,9 @@ Sun Microsystems (Java's creator) seemed okay with this. Then Oracle acquired Su
 The core question: **Can you copyright an API?** Not the implementation—everyone agreed Google wrote their own code. Just the names and structure that define how the API is called.
 
 ## The Journey Through Courts
+
+!!! terminal inline end ""
+    Google could afford eleven years. You probably can't. The threat of litigation is itself the weapon.
 
 This case bounced between courts for over a decade:
 
@@ -62,7 +66,7 @@ Oracle tried to turn API control into a revenue stream. They failed in this spec
 
 ### Scale matters
 
-Google could afford to fight for eleven years. Most companies can't. The threat of litigation is itself a barrier, regardless of who would ultimately win.
+The ability to sustain a decade-long legal battle is itself a form of power. Most companies and individuals would have settled, regardless of the merits.
 
 ## What This Means For You
 

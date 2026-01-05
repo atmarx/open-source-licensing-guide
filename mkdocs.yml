@@ -1,7 +1,7 @@
 site_name: "Open Source Licensing Guide"
 site_description: "Understanding Your Options"
 site_author: "Andrew Marx"
-site_url: "" # no url yet
+site_url: "https://libre.xram.net/"
 
 # Theme configuration
 theme:
@@ -11,21 +11,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: sage
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: sage
-      accent: amber
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   
   font:
-    text: Lora
+    text: IBM Plex Sans
     code: Fira Code
   
   features:
@@ -53,8 +53,13 @@ theme:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
+
+# Custom CSS
+extra_css:
+  - assets/stylesheets/custom.css
+  - https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap
 
 # Markdown extensions
 markdown_extensions:

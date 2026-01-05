@@ -1,6 +1,7 @@
 # SCO vs. Linux: The FUD Wars
 
 **Era:** 2003-2011
+
 **Lesson:** License provenance matters, and FUD is a weapon
 
 ## What Happened
@@ -22,19 +23,23 @@ SCO's arguments shifted throughout the litigation, but the core claims were:
 
 They pointedly refused to identify which specific code was infringing—a strategy that allowed the FUD (Fear, Uncertainty, and Doubt) to spread without being directly refuted.
 
+!!! terminal ""
+    I lived through this. The mailing lists were chaos. Every company we'd convinced to try Linux was calling, asking if they were about to be sued. And the whole time, we couldn't even see what code SCO claimed was infringing. You can't disprove a ghost. When it finally came out that Microsoft had been quietly funding SCO... well, let's just say none of us were surprised.
+
+
 ## The Community Response
 
 The Linux community did something remarkable: they organized a massive code audit. Developers pored over Linux's history, tracking the provenance of every contribution. The kernel's distributed development model—where every commit is attributed and the full history is preserved—made this possible.
 
 When SCO was finally forced to identify specific code in court, the community could demonstrate:
 
-- Some code was BSD-licensed and legally in Linux
+- Some code was [BSD-licensed](../licenses/permissive/bsd.md) and legally in Linux
 - Some code SCO claimed originated elsewhere
 - Some claims were simply incorrect
 
 ## The Resolution
 
-SCO lost. Badly. Multiple courts ruled against them on multiple grounds:
+SCO lost. **Badly.** *Multiple courts* ruled against them on *multiple grounds*:
 
 - They didn't actually own the Unix copyrights they claimed (Novell did)
 - Their contract claims against IBM failed

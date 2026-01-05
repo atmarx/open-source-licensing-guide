@@ -1,13 +1,14 @@
 # Elasticsearch and the OpenSearch Fork
 
 **Year:** 2021
+
 **Lesson:** License changes spawn forks, and forks can succeed
 
 ## What Happened
 
-Elastic, the company behind Elasticsearch and Kibana, changed their license.[^elastic-change] These tools had been Apache 2.0—about as permissive as it gets. Suddenly they were dual-licensed under SSPL and the Elastic License 2.0.
+Elastic, the company behind Elasticsearch and Kibana, changed their license.[^elastic-change] These tools had been [Apache 2.0](../licenses/permissive/apache-2.md)—about as [permissive](../concepts/permissive-vs-copyleft.md) as it gets. Suddenly they were dual-licensed under SSPL and the Elastic License 2.0.
 
-Neither is open source. The Apache-licensed Elasticsearch was gone.
+Neither is [open source](../licenses/other/source-available.md). The Apache-licensed Elasticsearch was gone.
 
 Their stated reason: Amazon. AWS offered Elasticsearch as a managed service and had even created their own distribution called "Open Distro for Elasticsearch." Elastic felt AWS was benefiting from their work without contributing back.
 
@@ -15,9 +16,12 @@ Their stated reason: Amazon. AWS offered Elasticsearch as a managed service and 
 
 AWS did something unexpected: they forked.
 
-Within weeks of Elastic's announcement, AWS launched OpenSearch—a fork of the last Apache-licensed Elasticsearch and Kibana.[^opensearch] They committed to maintaining it under Apache 2.0 and created the OpenSearch project with independent governance.
+Within weeks of Elastic's announcement, AWS launched OpenSearch—a fork of the last Apache-licensed Elasticsearch and Kibana.[^opensearch] They committed to maintaining it under [Apache 2.0](../licenses/permissive/apache-2.md) and created the OpenSearch project with independent governance.
 
 This wasn't just a corporate fork. AWS invested in community building, accepted external contributions, and positioned OpenSearch as the community continuation of what Elasticsearch used to be.
+
+!!! terminal inline end ""
+    The timeline where AWS becomes the open source hero was not on my bingo card.
 
 ## The Fallout
 
@@ -44,7 +48,7 @@ Elastic had positioned themselves as open source champions for years. The relice
 
 ### AWS as open source defender
 
-Amazon Web Services—frequently criticized for profiting from open source without contributing—became the defender of open source licensing in this story. They forked to preserve Apache 2.0, funded ongoing development, and built community governance.
+Amazon Web Services—frequently criticized for [profiting from open source without contributing](../concepts/rights-and-obligations.md)—became the defender of open source licensing in this story. They forked to preserve Apache 2.0, funded ongoing development, and built community governance.
 
 The company that many saw as the problem became, in this instance, part of the solution.
 

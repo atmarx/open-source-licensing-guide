@@ -8,13 +8,16 @@ Busybox is a tiny implementation of common Unix utilities—ls, cp, grep, and hu
 
 Nearly every consumer electronics device with embedded Linux runs Busybox: routers, set-top boxes, cameras, NAS devices, smart TVs. If it has Linux inside, it probably has Busybox.
 
-Busybox is licensed under GPL v2.
+Busybox is licensed under [GPL v2](../licenses/copyleft/gpl.md).
 
 ## The Enforcement Campaigns
 
 Between 2007 and 2015, the Software Freedom Conservancy and the Software Freedom Law Center filed multiple lawsuits on behalf of Busybox copyright holders against companies violating the GPL.[^busybox-lawsuits]
 
-The targets were primarily consumer electronics manufacturers who shipped Linux-based devices without providing source code as the GPL requires.
+The targets were primarily consumer electronics manufacturers who shipped Linux-based devices without providing source code as the [GPL requires](../concepts/rights-and-obligations.md#source-code-provision-copyleft-only).
+
+!!! terminal ""
+    For years we heard "the GPL is unenforceable" and "no one will ever sue." Then someone did. Watching router manufacturers suddenly discover they had compliance departments was deeply satisfying. Less satisfying: watching enforcement dry up when funding did. The GPL has teeth, but someone has to pay the dentist.
 
 ### Notable Defendants
 
@@ -77,7 +80,7 @@ Before Busybox enforcement, many assumed GPL violations were consequence-free. E
 
 ### Embedded systems are the frontier
 
-Embedded manufacturers have historically been the worst GPL violators. Many treat open source as free components to be used without obligation. Enforcement pushed back against this culture.
+Embedded manufacturers have historically been the worst GPL violators. Many treat open source as [free components to be used without obligation](../concepts/rights-and-obligations.md). Enforcement pushed back against this culture.
 
 ### Enforcement requires resources
 

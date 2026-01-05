@@ -59,48 +59,33 @@ Before using any code:
 
 ## Common Scenarios
 
-### Using npm/pip/cargo packages
+<div class="grid cards two-column" markdown>
 
-Package managers make this easy:
+-   :material-package-variant-closed:{ .lg .middle } **Using npm/pip/cargo packages**
 
-- Dependencies are installed, not distributed
-- Your users install dependencies themselves
-- You typically don't need to include all license files
+    ---
 
-But if you **bundle** dependencies (webpack, etc.):
+    Package managers make this easy—dependencies are installed, not distributed, so you typically don't need to include all license files. But if you **bundle** dependencies (webpack, etc.), include a notices file. Tools like `license-checker` or `pip-licenses` can generate these.
 
-- Include a notices file with license information
-- Tools like `license-checker` (npm) or `pip-licenses` can generate these
+-   :material-stack-overflow:{ .lg .middle } **Using code from Stack Overflow**
 
-### Using code snippets from Stack Overflow
+    ---
 
-Stack Overflow content is CC BY-SA 4.0:
+    Stack Overflow content is CC BY-SA 4.0—requires attribution and ShareAlike. For substantial code, this may conflict with your project's license. For small snippets, risk is low, but credit the source and consider compatibility.
 
-- Requires attribution
-- ShareAlike means derivatives should be similarly licensed
-- For substantial code, this may conflict with your project's license
+-   :material-folder-download:{ .lg .middle } **Vendoring dependencies**
 
-For small snippets, the practical risk is low, but technically you should:
+    ---
 
-- Credit the source
-- Consider the license compatibility
+    If you copy library source into your repository, include the original LICENSE file, preserve copyright notices, and treat it like any other included code.
 
-### Vendoring dependencies
+-   :material-source-fork:{ .lg .middle } **Forking a project**
 
-If you copy library source into your repository:
+    ---
 
-- Include the original LICENSE file
-- Preserve copyright notices
-- Treat it like any other included code
+    You must comply with the original license and inherit it for existing code. You can choose your license for new files (if permissive original), but you cannot relicense copyleft code.
 
-### Forking a project
-
-When you fork:
-
-- You must comply with the original license
-- You inherit its license for the existing code
-- You can choose your license for new files (if permissive original)
-- You cannot relicense copyleft code
+</div>
 
 ---
 

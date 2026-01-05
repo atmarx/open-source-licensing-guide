@@ -1,8 +1,9 @@
 # Permissive vs Copyleft
 
-This is the great divide. I've watched friendships strain over this debate, seen mailing list flamewars that went on for months, sat through conference talks where the speaker clearly thought the other side were fools or villains.
+!!! terminal "From the archives"
+    I've watched friendships strain over this debate. Mailing list flamewars that went on for months. Conference talks where the speaker clearly thought the other side were fools or villains. They're not.
 
-They're not. Both camps are trying to maximize freedom—they just disagree about what that means and how to achieve it.
+This is the great divide. Both camps are trying to maximize freedom—they just disagree about what that means and how to achieve it.
 
 ## The Core Difference
 
@@ -97,9 +98,10 @@ After decades of watching projects succeed and fail, here's my practical advice:
 
 ## The Business Reality
 
-Let me be direct about something: companies generally prefer permissive licenses. Legal departments understand them easily. There's no risk of accidentally "infecting" proprietary code. Compliance is straightforward.
+!!! terminal inline "Real talk"
+    Companies prefer permissive licenses. Legal departments understand them easily. No risk of accidentally "infecting" proprietary code. Compliance is straightforward. Whether that's a feature or a bug depends on your goals.
 
-This has real consequences. MIT and Apache-licensed projects often see more corporate contribution and adoption than GPL projects. Whether that's a feature or a bug depends on your goals.
+MIT and Apache-licensed projects often see more corporate contribution and adoption than GPL projects. This has real consequences for project sustainability and governance.
 
 Some projects thread the needle with **dual licensing**: GPL for open source use, commercial license for companies that don't want copyleft obligations. MySQL did this for years. It works, but it requires maintaining clear ownership of the codebase (usually via contributor license agreements).
 

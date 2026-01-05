@@ -1,11 +1,12 @@
 # MongoDB and the SSPL
 
 **Year:** 2018
+
 **Lesson:** The cloud provider problem has no clean solution
 
 ## What Happened
 
-MongoDB was one of the great open source success stories. A document database that developers loved, licensed under AGPL, backed by a company that went public. The model seemed to work.
+MongoDB was one of the great open source success stories. A document database that developers loved, licensed under [AGPL](../licenses/other/agpl.md), backed by a company that went public. The model seemed to work.
 
 Then came the cloud providers.
 
@@ -13,9 +14,12 @@ AWS, Azure, and GCP began offering MongoDB as a managed service. They took the o
 
 MongoDB's response: the Server Side Public License (SSPL).[^mongodb-sspl]
 
+!!! terminal ""
+    When MongoDB announced SSPL, I knew it was just the beginning. You could see the logic playing out in real time: if cloud providers can take your open source and sell it as a service, every infrastructure company would eventually face the same math. MongoDB was the first domino. It wasn't the last.
+
 ## The SSPL
 
-SSPL is AGPL on steroids. Like AGPL, it requires source code disclosure when software is offered over a network. Unlike AGPL, the disclosure requirement extends to the *entire stack*:
+SSPL is [AGPL](../licenses/other/agpl.md) on steroids. Like AGPL, it requires [source code disclosure](../concepts/rights-and-obligations.md#source-code-provision-copyleft-only)) when software is offered over a network. Unlike AGPL, the disclosure requirement extends to the *entire stack*:
 
 > If you make the functionality of the Program or a modified version available to third parties as a service, you must make the Service Source Code available... "Service Source Code" means the Corresponding Source for the Program or the modified version, and the Corresponding Source for all programs that you use to make the Program or modified version available as a service, including... management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software, all such that a user could run an instance of the service using the Service Source Code you make available.
 
@@ -47,7 +51,7 @@ The SSPL worked as intended: it forced cloud providers to either build their own
 
 ### The open source purist perspective
 
-> "You chose open source. You benefited from community contributions. Now that cloud providers can play by the same rules you did, you're changing those rules. SSPL isn't open source—it's source-available with restrictions."
+> "You chose open source. You benefited from community contributions. Now that cloud providers can play by the same rules you did, you're changing those rules. SSPL isn't open source—it's [source-available](../licenses/other/source-available.md) with restrictions."
 
 ### The pragmatic perspective
 

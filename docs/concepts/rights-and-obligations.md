@@ -8,20 +8,39 @@ This is not charity. This is not "take whatever you want." This is a bargain, an
 
 Let's start with what you get. Most open source licenses grant some combination of these:
 
-### Use
-You can run the software for any purpose—personal, commercial, educational, governmental—without restriction or payment. This is so universal that people forget it's a grant. Proprietary software often restricts what you can use it for.
+<div class="grid cards two-column" markdown>
 
-### Study
-You can examine the source code to understand how it works. This is one of the freedoms that defines open source. You're not just getting a black box—you're getting the blueprint.
+-   :material-play-circle:{ .lg .middle } **Use**
 
-### Modify
-You can change the software to fix bugs, add features, adapt it to your needs. You own your modifications (though what you can do with the combined work depends on the license).
+    ---
 
-### Distribute
-You can share copies with others, either unchanged or with your modifications included.
+    Run the software for any purpose—personal, commercial, educational, governmental—without restriction or payment. This is so universal that people forget it's a grant. Proprietary software often restricts what you can use it for.
 
-### Sublicense (sometimes)
-Some licenses allow you to grant rights to others—essentially passing on the permission. Permissive licenses generally allow this. Copyleft licenses require you to pass along the same license, unchanged.
+-   :material-magnify:{ .lg .middle } **Study**
+
+    ---
+
+    Examine the source code to understand how it works. This is one of the freedoms that defines open source. You're not just getting a black box—you're getting the blueprint.
+
+-   :material-pencil:{ .lg .middle } **Modify**
+
+    ---
+
+    Change the software to fix bugs, add features, adapt it to your needs. You own your modifications (though what you can do with the combined work depends on the license).
+
+-   :material-share-variant:{ .lg .middle } **Distribute**
+
+    ---
+
+    Share copies with others, either unchanged or with your modifications included.
+
+-   :material-key-chain:{ .lg .middle } **Sublicense** *(sometimes)*
+
+    ---
+
+    Some licenses allow you to grant rights to others—essentially passing on the permission. Permissive licenses generally allow this. Copyleft licenses require you to pass along the same license, unchanged.
+
+</div>
 
 ## Obligations Commonly Required
 

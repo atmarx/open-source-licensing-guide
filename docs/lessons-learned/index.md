@@ -10,33 +10,91 @@ These aren't just historical curiosities. They're warnings. Every one of these i
 
 These shaped how we think about open source licensing:
 
-| Incident | Era | The Lesson |
-|----------|-----|------------|
-| [BSD Advertising Clause](bsd-advertising-clause.md) | 1990s | Why we have 2-clause BSD today |
-| [SCO vs. Linux](sco-vs-linux.md) | 2003-2011 | FUD, fear, and license provenance |
-| [Oracle v. Google](oracle-v-google.md) | 2010-2021 | Can APIs be copyrighted? |
+<div class="grid cards" markdown>
+
+-   :material-bullhorn:{ .lg .middle } **[BSD Advertising Clause](bsd-advertising-clause.md)**
+
+    ---
+
+    *1990s* — Why we have 2-clause BSD today
+
+-   :material-shield-alert:{ .lg .middle } **[SCO vs. Linux](sco-vs-linux.md)**
+
+    ---
+
+    *2003–2011* — FUD, fear, and license provenance
+
+-   :material-scale-balance:{ .lg .middle } **[Oracle v. Google](oracle-v-google.md)**
+
+    ---
+
+    *2010–2021* — Can APIs be copyrighted?
+
+</div>
 
 ### The Corporate Pivots
 
 When open source business models collide with cloud providers:
 
-| Incident | Year | The Lesson |
-|----------|------|------------|
-| [React's License Scare](react-license.md) | 2017 | Why patent clauses matter |
-| [MongoDB and SSPL](mongodb-sspl.md) | 2018 | The cloud provider problem |
-| [Elasticsearch Fork](elasticsearch-opensearch.md) | 2021 | What happens when you relicense |
-| [HashiCorp and OpenTofu](hashicorp-opentofu.md) | 2023 | The community will fork |
-| [Redis Relicensing](redis-relicensing.md) | 2024 | The pattern continues |
+<div class="grid cards" markdown>
+
+-   :material-atom:{ .lg .middle } **[React's License Scare](react-license.md)**
+
+    ---
+
+    *2017* — Why patent clauses matter
+
+-   :material-cloud-lock:{ .lg .middle } **[MongoDB and SSPL](mongodb-sspl.md)**
+
+    ---
+
+    *2018* — The cloud provider problem
+
+-   :material-source-fork:{ .lg .middle } **[Elasticsearch Fork](elasticsearch-opensearch.md)**
+
+    ---
+
+    *2021* — What happens when you relicense
+
+-   :material-swap-horizontal:{ .lg .middle } **[HashiCorp and OpenTofu](hashicorp-opentofu.md)**
+
+    ---
+
+    *2023* — The community will fork
+
+-   :material-cached:{ .lg .middle } **[Redis Relicensing](redis-relicensing.md)**
+
+    ---
+
+    *2024* — The pattern continues
+
+</div>
 
 ### The Quirks and Edge Cases
 
 Smaller incidents with useful lessons:
 
-| Incident | The Lesson |
-|----------|------------|
-| [The JSON License](json-license.md) | Don't add joke clauses to licenses |
-| [ZFS on Linux](zfs-linux.md) | License incompatibility has real costs |
-| [Busybox Enforcement](busybox-enforcement.md) | GPL has teeth |
+<div class="grid cards" markdown>
+
+-   :material-code-json:{ .lg .middle } **[The JSON License](json-license.md)**
+
+    ---
+
+    Don't add joke clauses to licenses
+
+-   :material-harddisk:{ .lg .middle } **[ZFS on Linux](zfs-linux.md)**
+
+    ---
+
+    License incompatibility has real costs
+
+-   :material-gavel:{ .lg .middle } **[Busybox Enforcement](busybox-enforcement.md)**
+
+    ---
+
+    GPL has teeth
+
+</div>
 
 ## The Pattern
 

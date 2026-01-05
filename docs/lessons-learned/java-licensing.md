@@ -1,6 +1,7 @@
 # Java Licensing: The Oracle Tax
 
 **Year:** 2018-2019
+
 **Lesson:** "Free" can become expensive overnight
 
 ## What Happened
@@ -12,6 +13,9 @@ Then Oracle acquired Sun.
 For years, nothing much changed. Oracle continued providing the JDK. Developers continued using it. The ecosystem continued growing.
 
 Then, in 2018, Oracle changed the licensing model.[^oracle-jdk-change]
+
+!!! terminal ""
+    I remember the first panicked call from a CTO: "We have Java everywhere. Do we owe Oracle millions?" The answer was almost always no—but finding that answer required understanding a distinction between code and distribution that most people had never thought about. Oracle counted on that confusion.
 
 ## The Licensing Shift
 
@@ -91,7 +95,7 @@ Oracle couldn't revoke the GPL on OpenJDK. They couldn't prevent competitors fro
 
 ### Corporations have long memories
 
-Oracle's licensing changes—combined with their litigation against Google and their general approach to acquisitions—have made many organizations Oracle-averse. The short-term licensing revenue may have cost Oracle long-term mindshare.
+Oracle's licensing changes—combined with [their litigation against Google](./oracle-v-google.md) and their general approach to acquisitions—have made many organizations Oracle-averse. The short-term licensing revenue may have cost Oracle long-term mindshare.
 
 ## What This Means For You
 

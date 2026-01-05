@@ -4,9 +4,12 @@
 
 ## What Happened
 
-Douglas Crockford created JSON, the data format that powers most of the modern web. He also created a reference implementation and a small JavaScript library. He licensed it under a modified MIT license with one addition:[^json-license]
+Douglas Crockford created JSON, the data format that powers most of the modern web. He also created a reference implementation and a small JavaScript library. He licensed it under a modified [MIT license](../licenses/permissive/mit.md) with one addition:[^json-license]
 
 > The Software shall be used for Good, not Evil.
+
+!!! terminal inline end ""
+    Lawyers don't understand jokes. Legal documents aren't the place for personality. I've watched this lesson get learned the hard way more than once.
 
 It was a joke. Crockford has said as much. A bit of whimsy in a legal document.
 
@@ -24,9 +27,9 @@ No court has ruled on this clause. No one knows what it means legally. And that 
 
 Companies doing their due diligence saw the clause and flagged it. Not because they intended to do evil, but because:
 
-- The clause is ambiguous
-- Ambiguity creates legal risk
-- Legal departments minimize risk
+- The clause is **ambiguous**
+- **Ambiguity** creates **legal risk**
+- Legal departments **minimize risk**
 
 IBM famously requested (and received) a license exception from Crockford.[^ibm-exception] Other companies just avoided the code entirely.
 
@@ -34,7 +37,7 @@ IBM famously requested (and received) a license exception from Crockford.[^ibm-e
 
 Debian and Fedora classified the JSON license as non-free.[^debian-json] The "Good, not Evil" clause violates the Open Source Definition's requirement for no discrimination by field of endeavor.
 
-From a strict reading, the JSON license isn't open source.
+From a strict reading, the JSON license [isn't open source](../concepts/libre-vs-gratis.md).
 
 ### It caused actual work
 
@@ -44,7 +47,7 @@ Maintainers of projects that depended on Crockford's JSON library had to:
 - Seek explicit license exceptions
 - Explain to their legal teams why a "Good, not Evil" clause existed
 
-All because of a joke.
+**All because of a joke.**
 
 ## The Lesson
 

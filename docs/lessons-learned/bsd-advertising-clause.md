@@ -1,6 +1,7 @@
 # The BSD Advertising Clause Disaster
 
 **Era:** 1990s
+
 **Lesson:** License proliferation and clause accumulation create real problems
 
 ## What Happened
@@ -13,7 +14,7 @@ One acknowledgment. Not a big deal, right?
 
 ## The Problem
 
-BSD code was good. Really good. Projects incorporated BSD-licensed components enthusiastically. Each project that used the original BSD license required its own acknowledgment.
+BSD code was good. *Really good*. Projects incorporated BSD-licensed components enthusiastically. Each project that used the original BSD license required its own acknowledgment.
 
 Then projects started combining code from multiple BSD-licensed sources. Each source required its own specific acknowledgment text. By the late 1990s, some software distributions required pages of acknowledgments—one for every BSD-licensed component they included.
 
@@ -25,13 +26,16 @@ Worse, different organizations had modified the clause with their own names, cre
 
 In 1999, William Hoskins, director of the Office of Technology Licensing at UC Berkeley, officially removed the advertising clause from the BSD license.[^bsd-removal] The university encouraged all BSD-licensed projects to do the same.
 
-This gave us the modern 2-clause and 3-clause BSD licenses:
+This gave us the modern [2-clause and 3-clause BSD licenses](../licenses/permissive/bsd.md):
 
-- **2-clause BSD (Simplified BSD):** Just attribution and disclaimer
+- **2-clause BSD (Simplified BSD):** Just [attribution](../guides/attribution.md) and disclaimer
 - **3-clause BSD (New BSD):** Attribution, disclaimer, and non-endorsement
 - **4-clause BSD (Original):** Now considered obsolete
 
 Most projects migrated. The advertising clause problem faded into history.
+
+!!! terminal ""
+    I spent more hours arguing about this clause on Usenet than I care to remember. Heated debates, lengthy threads, genuine anger. And now? Ask a developer under 40 about the BSD advertising clause and watch the blank stare. We fixed it so thoroughly that nobody remembers it was broken. That's the best kind of victory—and the worst kind of history lesson.
 
 ## The Lesson
 
@@ -39,7 +43,7 @@ Most projects migrated. The advertising clause problem faded into history.
 
 This is why license simplicity matters. Every clause you add is a clause that will be inherited by everyone who uses your code, combined with all the other clauses they've inherited from everyone else.
 
-The simpler your license, the less friction it creates downstream. MIT's popularity isn't an accident—it imposes almost nothing on users.
+The simpler your license, the less friction it creates downstream. [MIT's](../licenses/permissive/mit.md) popularity isn't an accident—it imposes almost nothing on users.
 
 ## What We'd Do Differently Today
 

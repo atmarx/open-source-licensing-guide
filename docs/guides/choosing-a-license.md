@@ -17,7 +17,7 @@ Start with these questions:
 | Mixed | Multiple licenses for different components |
 
 !!! tip "Don't use Creative Commons for code"
-    CC licenses don't address software-specific concerns like source code, compilation, and linking. Use software licenses for software.
+    [CC licenses](../creative-commons/index.md) don't address software-specific concerns like source code, compilation, and linking. [Use software licenses](../licenses/index.md) for software.
 
 ### 2. What do you want to allow?
 
@@ -94,55 +94,57 @@ Matching your ecosystem reduces friction.
 
 ## Common Scenarios
 
-### "I want people to use this without hassle"
+<div class="grid cards two-column" markdown>
 
-**Choose: MIT**
+-   :material-hand-wave:{ .lg .middle } **"I want people to use this without hassle"**
 
-MIT is simple, understood everywhere, and imposes minimal burden. It's the default choice for maximum adoption.
+    ---
 
-### "I want credit but don't care about contributions back"
+    **Choose: [MIT](../licenses/permissive/mit.md)** — Simple, understood everywhere, imposes minimal burden. The default choice for maximum adoption.
 
-**Choose: MIT or Apache 2.0**
+-   :material-account-check:{ .lg .middle } **"I want credit but don't care about contributions back"**
 
-Both require attribution. Apache 2.0 adds patent protection, which matters for larger projects or enterprise use.
+    ---
 
-### "I want improvements to come back to the community"
+    **Choose: [MIT](../licenses/permissive/mit.md) or [Apache 2.0](../licenses/permissive/apache-2.md)** — Both require attribution. Apache 2.0 adds patent protection for larger projects or enterprise use.
 
-**Choose: GPL v3 or AGPL**
+-   :material-source-branch:{ .lg .middle } **"I want improvements to come back to the community"**
 
-Strong copyleft ensures that public improvements must be shared. AGPL extends this to SaaS.
+    ---
 
-### "I'm building a library for wide use"
+    **Choose: [GPL v3](../licenses/copyleft/gpl.md) or [AGPL](../licenses/other/agpl.md)** — Strong copyleft ensures public improvements must be shared. AGPL extends this to SaaS.
 
-**Choose: MIT, Apache 2.0, or LGPL**
+-   :material-package-variant:{ .lg .middle } **"I'm building a library for wide use"**
 
-- MIT/Apache: Anyone can use without complexity
-- LGPL: Proprietary use allowed, but library improvements must be shared
+    ---
 
-### "This is a web service that might be hosted by others"
+    **Choose: [MIT](../licenses/permissive/mit.md), [Apache 2.0](../licenses/permissive/apache-2.md), or [LGPL](../licenses/copyleft/lgpl.md)** — MIT/Apache for simplicity; LGPL if you want library improvements shared but allow proprietary use.
 
-**Choose: AGPL**
+-   :material-cloud:{ .lg .middle } **"This is a web service that might be hosted by others"**
 
-If you want competitors to share improvements when they host your code, AGPL closes the SaaS loophole.
+    ---
 
-### "I'm publishing research data"
+    **Choose: [AGPL](../licenses/other/agpl.md)** — Closes the SaaS loophole. Competitors must share improvements when they host your code.
 
-**Choose: CC0**
+-   :material-database:{ .lg .middle } **"I'm publishing research data"**
 
-Maximum reuse for data. Academic citation norms provide attribution even without legal requirement.
+    ---
 
-### "I'm writing documentation"
+    **Choose: [CC0](../creative-commons/cc0.md)** — Maximum reuse for data. Academic citation norms provide attribution even without legal requirement.
 
-**Choose: CC BY or CC BY-SA**
+-   :material-file-document:{ .lg .middle } **"I'm writing documentation"**
 
-- CC BY: Others can use freely, must credit
-- CC BY-SA: Others must keep their adaptations open
+    ---
 
-### "I want to dual-license for business"
+    **Choose: [CC BY](../creative-commons/cc-by.md) or [CC BY-SA](../creative-commons/cc-by-sa.md)** — CC BY for free use with credit; CC BY-SA to keep adaptations open.
 
-**Choose: GPL + commercial, or AGPL + commercial**
+-   :material-cash-multiple:{ .lg .middle } **"I want to dual-license for business"**
 
-Open source under copyleft for community, sell commercial licenses to companies that want proprietary use.
+    ---
+
+    **Choose: [GPL](../licenses/copyleft/gpl.md) + commercial, or [AGPL](../licenses/other/agpl.md) + commercial** — Open source under copyleft for community, sell commercial licenses for proprietary use.
+
+</div>
 
 ---
 

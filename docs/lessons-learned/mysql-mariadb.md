@@ -1,6 +1,7 @@
 # MySQL and the MariaDB Fork
 
 **Year:** 2009-2010
+
 **Lesson:** Sometimes the community forks before anything goes wrong
 
 ## What Happened
@@ -18,6 +19,9 @@ The community didn't wait to see what would happen.
 ## The Preemptive Fork
 
 Michael "Monty" Widenius, MySQL's original creator, forked the project in 2009—before Oracle's acquisition of Sun had even closed. He called it MariaDB (after his daughter, continuing the family naming tradition—MySQL was named after his other daughter, My).
+
+!!! terminal inline end ""
+    Most forks happen in panic. This one was strategic. Monty saw what was coming and moved before the crisis hit.
 
 This was unprecedented. Previous forks happened in response to license changes or governance failures. MariaDB was forked in anticipation of problems that hadn't occurred yet.
 

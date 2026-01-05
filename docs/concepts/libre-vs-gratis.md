@@ -1,21 +1,36 @@
 # Free as in Freedom
 
-If I had a dollar for every time someone said "but it's free!" without understanding what kind of free they meant, I could retire twice. The English language did us no favors here.
+If I had a dollar for every time someone said "but it's free!" without understanding what kind of free they meant, I could retire twice (to that stereotypical tropical island all of us graybeards tend to retire to). The English language did us no favors here.
 
-In most Romance languages, there are two different words: one for "free of charge" and one for "free to do with as you please." English smashes them together into one word and expects us to figure it out from context.
+In most Romance languages, there are two different words: one for "*free of charge*" and one for "*free to do with as you please*." English smashes them together into one word and expects us to figure it out from context.
 
 We can't afford ambiguity when we're talking about legal rights. So let's fix that.
 
 ## The Two Meanings of "Free"
 
-| Term | Meaning | Example |
-|------|---------|---------|
-| **Gratis** | Free of charge | A free sample at the grocery store |
-| **Libre** | Free to use, modify, share | Freedom of speech, freedom of the press |
+<div class="grid cards two-column" markdown>
 
-When Richard Stallman started the free software movement in 1983, he meant **libre**.[^gnu-manifesto] Free software is about freedom, not price. His famous formulation: "Free as in free speech, not as in free beer."
+-   :material-gift:{ .lg .middle } **Gratis**
 
-I've watched this confuse people for four decades. It still confuses people. But once you get it, a lot of other things click into place.
+    ---
+
+    - Free of charge.
+    - A free sample at the grocery store.
+    - **Free beer.**
+
+-   :material-lock-open-variant:{ .lg .middle } **Libre**
+
+    ---
+
+    - Free to use, modify, share.
+    - Freedom of the press.
+    - **Free speech.**
+
+</div>
+
+When Richard Stallman started the free software movement in 1983, he meant **libre**.[^gnu-manifesto] Free software is about freedom, not price. His famous formulation: **"Free as in free speech, not as in free beer."**
+
+I've watched this confuse people for the better part of half a century. It still confuses people. But once you get it, a lot of other things click into place.
 
 ## Why This Distinction Matters
 
@@ -23,13 +38,15 @@ I've watched this confuse people for four decades. It still confuses people. But
 
 This surprises people, but there's nothing in any open source license that says you can't charge for the software. Red Hat built a multi-billion dollar business selling Linux. The license guarantees that once you have the software, you have certain freedoms—it doesn't say you're entitled to get it for free.
 
-I remember when Red Hat went public in 1999.[^red-hat-ipo] People were incredulous: "How can you sell something that's free?" They were confusing gratis with libre.
+!!! terminal "Confusion Reigns"
+
+    I remember when Red Hat went public in 1999.[^red-hat-ipo] People were incredulous: "How can you sell something that's free?" **They were confusing gratis with libre.**
 
 ### Proprietary software can be gratis
 
-Your phone is full of apps that cost nothing. Chrome, Instagram, Gmail—all free as in beer. But try to look at their source code. Try to modify them. Try to redistribute them. You can't. They're gratis but not libre.
+Your phone is full of apps that cost nothing. Chrome, Instagram, Gmail—all free *as in beer*. But try to look at their source code. Try to modify them. Try to redistribute them. You can't. **They're gratis but not libre.**
 
-When something is free but not open source, ask yourself: what's the actual business model? Usually, you're the product.
+When something is free but not open source, ask yourself: what's the actual business model? Usually, **you're the product**.
 
 ### The Four Freedoms
 
@@ -51,7 +68,7 @@ Back in the 90s, we spent an embarrassing amount of energy arguing about what to
 - **FOSS** — Free and Open Source Software (a compromise)
 - **FLOSS** — Free/Libre and Open Source Software (explicitly clarifying "libre")
 
-These days, most people use "open source" in conversation and don't worry too much about the philosophical implications. But when you're reading licenses or making decisions about your own projects, the libre/gratis distinction still matters.
+These days, most people use "open source" in conversation and don't worry too much about the philosophical implications. But when you're reading licenses or making decisions about your own projects, **the libre/gratis distinction still matters**.
 
 ## A Practical Framework
 
@@ -60,16 +77,33 @@ When you're evaluating software, ask two separate questions:
 1. **What does it cost?** (gratis vs paid)
 2. **What rights do I have?** (libre vs proprietary)
 
-```
-                    │ Libre              │ Proprietary
-────────────────────┼────────────────────┼────────────────────
- Gratis             │ Linux, Firefox,    │ Chrome, Instagram,
-                    │ Python, Git        │ most mobile apps
-────────────────────┼────────────────────┼────────────────────
- Paid               │ RHEL, support      │ Windows, Photoshop,
-                    │ contracts, hosted  │ most commercial
-                    │ services           │ software
-```
+<div class="grid cards two-column" markdown>
+
+-   :material-check-circle:{ .lg .middle } **Gratis + Libre**
+
+    ---
+
+    Linux, Firefox, Python, Git — Free to use *and* free to modify, share, and build upon.
+
+-   :material-alert-circle:{ .lg .middle } **Gratis + Proprietary**
+
+    ---
+
+    Chrome, Instagram, most mobile apps — Free to use, but you can't see the code, modify it, or redistribute.
+
+-   :material-check-circle-outline:{ .lg .middle } **Paid + Libre**
+
+    ---
+
+    RHEL, support contracts, hosted services — Costs money, but you still have full rights to the code.
+
+-   :material-close-circle:{ .lg .middle } **Paid + Proprietary**
+
+    ---
+
+    Windows, Photoshop, most commercial software — Costs money *and* restricts what you can do with it.
+
+</div>
 
 The most valuable quadrant for users is often libre—regardless of price. Here's why: if the original maintainer abandons the project, you can fork it. If they make decisions you disagree with, you can go your own way. If they get acquired and change direction, the code you depend on is still yours to use.
 

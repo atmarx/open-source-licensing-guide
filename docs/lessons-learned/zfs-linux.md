@@ -12,11 +12,14 @@ You'd think they'd go together. They don't—or at least, not cleanly.
 
 ## The Problem
 
-ZFS is licensed under CDDL (Common Development and Distribution License). Linux is licensed under GPL v2.
+ZFS is licensed under CDDL (Common Development and Distribution License). Linux is licensed under [GPL v2](../licenses/copyleft/gpl.md).
 
-CDDL and GPL are both copyleft licenses. Both require derivative works to use the same license. When you combine CDDL code and GPL code, both licenses claim the result—and they can't both be satisfied simultaneously.
+CDDL and GPL are both [copyleft](../concepts/permissive-vs-copyleft.md) licenses. Both require [derivative works](../concepts/rights-and-obligations.md) to use the same license. When you combine CDDL code and GPL code, both licenses claim the result—and they can't both be satisfied simultaneously.
 
 The Free Software Foundation considers them incompatible.[^zfs-issues] So does the Linux kernel project.
+
+!!! terminal ""
+    This one hurts. Two of the greatest pieces of open source software ever written, and they can't be combined because lawyers at Sun decided to play games with license compatibility. Every time I set up ZFS on a Linux box and deal with the DKMS dance, I think about what could have been.
 
 ## The Consequences
 
@@ -82,13 +85,13 @@ Even if Oracle relicensed ZFS tomorrow, the years of fragmentation and workaroun
 
 When choosing a license:
 
-- Consider what other projects you want compatibility with
+- Consider what other projects you want [compatibility](../guides/using-licensed-code.md#license-compatibility) with
 - Copyleft licenses can conflict with each other
 - Strategic restrictions may backfire long-term
 
 When adopting dependencies:
 
-- License compatibility matters for integration
+- [License compatibility](../guides/using-licensed-code.md#license-compatibility) matters for integration
 - Check whether the licenses of your dependencies are compatible with each other
 - "Both open source" doesn't mean "compatible"
 

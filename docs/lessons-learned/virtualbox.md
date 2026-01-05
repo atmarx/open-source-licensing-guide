@@ -1,6 +1,7 @@
 # VirtualBox: Open Core in Practice
 
 **Year:** 2010-present
+
 **Lesson:** Read the fine print on "free" software
 
 ## What Is VirtualBox?
@@ -15,32 +16,52 @@ But there's a catch.
 
 VirtualBox uses an "open core" model:
 
-**VirtualBox Base Package** — GPL v2
-- The core virtualization engine
-- Basic VM management
-- Standard networking and storage
+<div class="grid cards" markdown>
 
-**VirtualBox Extension Pack** — PUEL (Personal Use and Evaluation License)
-- USB 2.0/3.0 device support
-- VirtualBox Remote Desktop Protocol (VRDP)
-- Disk encryption
-- NVMe and PXE boot for Intel cards
+-   :material-open-source-initiative:{ .lg .middle } **VirtualBox Base Package** — GPL v2
+
+    ---
+
+    - The core virtualization engine
+    - Basic VM management
+    - Standard networking and storage
+
+-   :material-lock:{ .lg .middle } **VirtualBox Extension Pack** — PUEL
+
+    ---
+
+    - USB 2.0/3.0 device support
+    - VirtualBox Remote Desktop Protocol (VRDP)
+    - Disk encryption
+    - NVMe and PXE boot for Intel cards
+
+</div>
 
 The Extension Pack is not open source. It's proprietary software with a restrictive license.
 
 ## The PUEL Trap
 
-Oracle's Personal Use and Evaluation License sounds generous. You can download and use the Extension Pack for:
+Oracle's Personal Use and Evaluation License sounds generous:
 
-- Personal use
-- Academic use
-- Evaluation purposes
+<div class="grid cards" markdown>
 
-What you cannot do without a commercial license:
+-   :material-check-circle:{ .lg .middle } **Allowed under PUEL**
 
-- Use it in a business environment
-- Use it for commercial purposes
-- Deploy it in a data center
+    ---
+
+    - Personal use
+    - Academic use
+    - Evaluation purposes
+
+-   :material-close-circle:{ .lg .middle } **Requires Commercial License**
+
+    ---
+
+    - Use in a business environment
+    - Use for commercial purposes
+    - Deployment in a data center
+
+</div>
 
 Many organizations discovered this the hard way. IT departments installed VirtualBox with the Extension Pack—a single download, presented as one product—without realizing they needed commercial licenses for business use.
 
@@ -63,6 +84,9 @@ The license isn't clear. That ambiguity benefits Oracle—uncertainty encourages
 ### The Audit Shadow
 
 Oracle's reputation for licensing audits extends to VirtualBox. Organizations with Oracle relationships have reported inquiries about VirtualBox usage. Whether Oracle actively audits VirtualBox compliance is unclear, but the possibility affects behavior.
+
+!!! terminal ""
+    The first time I got an email from an Oracle licensing compliance specialist who mentioned that our IP address had been recorded downloading the Extension Pack—and asking very expensive follow-up questions—I understood why people fear Oracle. Nothing came of it. But the message was clear.
 
 ## The Community Response
 

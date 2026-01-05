@@ -1,17 +1,21 @@
 # HashiCorp and the OpenTofu Fork
 
 **Year:** 2023
+
 **Lesson:** The community will fork, faster than you think
 
 ## What Happened
 
-HashiCorp built some of the most important infrastructure tools of the cloud era: Terraform, Vault, Consul, Nomad. All were open source under MPL 2.0. Terraform, in particular, became the standard for infrastructure-as-code.
+HashiCorp built some of the most important infrastructure tools of the cloud era: Terraform, Vault, Consul, Nomad. All were open source under [MPL 2.0](../licenses/copyleft/mpl.md). Terraform, in particular, became the standard for infrastructure-as-code.
 
 In August 2023, HashiCorp announced they were relicensing everything from MPL 2.0 to the Business Source License (BSL).[^hashicorp-bsl]
 
-BSL is explicitly not open source. It restricts commercial use—specifically, it prohibits offering HashiCorp software as a competitive service. After four years, the code converts to a permissive license, but the current version is always restricted.
+BSL is explicitly [not open source](../licenses/other/source-available.md). It restricts commercial use—specifically, it prohibits offering HashiCorp software as a competitive service. After four years, the code converts to a permissive license, but the current version is always restricted.
 
 The terraform community had 11 days warning.
+
+!!! terminal inline end ""
+    Company releases open source. It becomes valuable. Company tries to capture that value. Community forks. This is the new equilibrium.
 
 ## The Fork
 
@@ -54,7 +58,7 @@ These arguments echoed MongoDB and Elastic. The pattern is familiar.
 Both projects continue:
 
 - **Terraform** — HashiCorp's product, under BSL
-- **OpenTofu** — Linux Foundation project, under MPL 2.0
+- **OpenTofu** — Linux Foundation project, under [MPL 2.0](../licenses/copyleft/mpl.md)
 
 OpenTofu has diverged from Terraform, adding features HashiCorp rejected. The projects are no longer fully compatible.
 
@@ -72,7 +76,7 @@ HashiCorp faced the same economics as MongoDB and Elastic. Their response was th
 
 HashiCorp could relicense because their contributor agreements permitted it. OpenTofu cannot be relicensed the same way—the Linux Foundation's structure prevents it.
 
-If you contribute to a project, understand what rights you're granting.
+If you contribute to a project, understand [what rights you're granting](../concepts/rights-and-obligations.md).
 
 ### Trust is hard to rebuild
 

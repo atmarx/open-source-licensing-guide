@@ -4,23 +4,23 @@
 
 If you've read the Preface, you've met the narrator—a grizzled veteran who watched the free software movement unfold from the beginning. That voice is a deliberate choice.
 
-I wanted this guide to feel like getting advice from someone who'd seen it all. Not a legal textbook, not a Wikipedia article, but the kind of practical wisdom you'd get from a mentor who's been around long enough to know where the bodies are buried. The voice is a composite—part oral history, part the tone I wish someone had used when explaining this stuff to me.
+I wanted this guide to feel like getting advice from someone who'd seen it all. Not a legal textbook, not a Wikipedia article, but the kind of practical wisdom you'd get from a mentor who's been around long enough to know where the bodies are buried. The voice is a composite—part oral history, part active participant in the madness, and part "the tone I wish someone had used when explaining this stuff to me".
 
-The events are real. The lessons are real. The "I was there" framing is a narrative device. Consider it historical fiction in service of education.
+The events are real. The lessons are real. The "*I was there*" framing is a narrative device. Consider it historical fiction in service of education.
 
 ## About Me
 
 My name's Andrew, and I was born in 1983—the same year Richard Stallman announced the GNU Project. My dad brought home an IBM AT when I was five, and I've been fixing, using, and explaining computers ever since.
 
-I grew up in the middle of it. My dad replaced the AT with a 386DX-33 and I got my first taste of Windows 3 after years of only DOS. We finally retired the dot matrix printer that had buzzed through my childhood (including the first printed report my 1st grade teacher Mrs. Wallace had ever received from a pupil), replacing it with a slick laser that could spit out *multiple* pages a minute. I read *Where Wizards Stay Up Late* and wanted to start my own ISP. I was my high school's webmaster while the browser wars raged (*"it's fine in Navigator, but why does it look so weird in IE4?"*).
+I grew up in the middle of it. My dad replaced the AT with a 386DX-33 and I got my first taste of Windows 3 after years of only DOS. We finally retired the dot matrix printer that had buzzed through my childhood (including the first printed report my 1st grade teacher had ever received from a pupil), replacing it with a slick laser that could spit out *multiple* pages a minute. I read [*Where Wizards Stay Up Late*](https://www.simonandschuster.com/books/Where-Wizards-Stay-Up-Late/Katie-Hafner/9780684832678) and wanted to start my own ISP. I was my high school's webmaster while the browser wars raged (*"it's fine in Navigator, but why does it look so weird in IE4?"*).
 
-But I was young. I watched the foundational battles from the sidelines—seeing the names and players connected to software I used, but lacking the political understanding to connect the bigger picture. I heard the names—Stallman, Torvalds, Raymond—but I knew them the way a kid knows the adults are arguing about something important without quite grasping what.
+But I was young. I watched the foundational battles from the sidelines—seeing the names and players connected to software I used, but lacking the political understanding to connect the bigger picture. I heard the names—[Stallman](https://en.wikipedia.org/wiki/Richard_Stallman), [Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), [Raymond](https://en.wikipedia.org/wiki/Eric_S._Raymond)—but I knew them the way a kid knows the adults are discussing something important without quite grasping what.
 
 ## Why This Guide Exists
 
-I now work with researchers and developers, many of whom are even further removed from this history than I am. "Open source" is just *how software works now*. Most have never had to think about why MIT and GPL are different, or what it means when a company relicenses their project. They assume someone else has figured this out[^overhead].
+I now work with researchers and developers, many of whom are even further removed from this history than I am. "Open source" is just *how software works now*. Most have never had to think about why [MIT](./licenses/permissive/mit.md) and [GPL](./licenses/copyleft/gpl.md) are different, or what it means when a company relicenses their project. They assume someone else has figured this out[^overhead].
 
-Someone has. But that knowledge lives in mailing list archives, conference talks, and the memories of people who were there. It's not written down in one place, in plain language, for people who just need to understand enough to make good decisions.
+Someone has[^myjob]. But that knowledge lives in mailing list archives, conference talks, and the memories of people who were there. It's not written down in one place, in plain language, for people who just need to understand enough to make good decisions.
 
 This guide is my attempt to fix that, and to learn something along the way.
 
@@ -45,3 +45,4 @@ Why NonCommercial? Because I built this to help people, not to create a product.
 *— Andrew Marx, 2026 @ [github.com/atmarx/open-source-licensing-guide](https://github.com/atmarx)*
 
 [^overhead]: "That's what overhead is for!" they shout in unison.
+[^myjob]: "I know.  It's literally my job." I reply with a wink.

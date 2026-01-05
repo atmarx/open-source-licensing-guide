@@ -4,10 +4,33 @@ Attribution—giving credit to creators—is required by almost every open sourc
 
 ## Why Attribution Matters
 
-- **Legal requirement:** Most licenses require it. Non-compliance is infringement.
-- **Academic integrity:** Citation norms exist for a reason.
-- **Community respect:** Acknowledging work maintains goodwill.
-- **Provenance:** Helps others trace origins and find upstream projects.
+<div class="grid cards two-column" markdown>
+
+-   :material-gavel:{ .lg .middle } **Legal Requirement**
+
+    ---
+
+    Most licenses require it. Non-compliance is infringement.
+
+-   :material-school:{ .lg .middle } **Academic Integrity**
+
+    ---
+
+    Citation norms exist for a reason. Give credit where it's due.
+
+-   :material-handshake:{ .lg .middle } **Community Respect**
+
+    ---
+
+    Acknowledging work maintains goodwill and trust.
+
+-   :material-source-branch:{ .lg .middle } **Provenance**
+
+    ---
+
+    Helps others trace origins and find upstream projects.
+
+</div>
 
 ## What's Required
 

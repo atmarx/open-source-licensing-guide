@@ -6,7 +6,7 @@
   </div>
 </div>
 
-**I've been writing software since before "open source" had a name. I watched Richard Stallman [draft the GPL](./licenses/copyleft/gpl.md), saw the term ["open source" coined](./concepts/libre-vs-gratis.md#the-terminology-wars) at that Palo Alto meeting in 1998, and have spent decades explaining to well-meaning developers why ["I found it on GitHub"](./concepts/common-misconceptions.md#if-its-on-github-its-open-source) isn't a license.**
+**[I've](./preface.md) been writing software since before "open source" had a name. I watched Richard Stallman [draft the GPL](./licenses/copyleft/gpl.md), saw the term ["open source" coined](./concepts/libre-vs-gratis.md#the-terminology-wars) at that Palo Alto meeting in 1998, and have spent decades explaining to well-meaning developers why ["I found it on GitHub"](./concepts/common-misconceptions.md#if-its-on-github-its-open-source) isn't a license.**
 
 !!! terminal inline end "Trust me on this"
     I know you want to skip ahead to "which license should I pick." Five minutes on the foundations will save you hours of confusion later.

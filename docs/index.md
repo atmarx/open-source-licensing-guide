@@ -9,7 +9,7 @@
 **[I've](./preface.md) been writing software since before "open source" had a name. I watched Richard Stallman [draft the GPL](./licenses/copyleft/gpl.md), saw the term ["open source" coined](./concepts/libre-vs-gratis.md#the-terminology-wars) at that Palo Alto meeting in 1998, and have spent decades explaining to well-meaning developers why ["I found it on GitHub"](./concepts/common-misconceptions.md#if-its-on-github-its-open-source) isn't a license.**
 
 !!! terminal inline end "Trust me on this"
-    I know you want to skip ahead to "which license should I pick." Five minutes on the foundations will save you hours of confusion later.
+    I know you want to skip ahead to "which license should I pick." Five minutes on [the foundations](./concepts/index.md) will save you hours of confusion later.
 
 After forty-some years in this industry, I've seen every possible way to get licensing wrong. I've watched startups get cease-and-desist letters because someone didn't read the fine print. I've seen billion-dollar acquisitions nearly fall apart over license compliance issues. And I've lost count of how many times I've heard "but it's open source, that means I can do whatever I want."
 

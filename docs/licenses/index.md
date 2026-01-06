@@ -1,3 +1,7 @@
+---
+title: Software Licenses
+---
+
 <div class="hero hero-half" markdown>
   <img src="../assets/images/licenses-hero.webp" alt="Art deco illustration of legal documents">
   <div class="hero-overlay">

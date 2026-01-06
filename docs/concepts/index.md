@@ -1,3 +1,7 @@
+---
+title: Understanding Open Source
+---
+
 <div class="hero hero-half" markdown>
   <img src="../assets/images/concepts-hero.webp" alt="Art deco illustration of foundational concepts">
   <div class="hero-overlay">

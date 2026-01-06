@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(tree:*)",
-      "Bash(cwebp:*)"
+      "Bash(cwebp:*)",
+      "Bash(done)",
+      "Bash(find docs -name \"*.md\" -exec sh -c 'echo \"\"=== {} ===\"\" && head -20 \"\"{}\"\" | grep -E \"\"^\\(#|title:\\)\"\" | head -2' ;)"
     ]
   }
 }

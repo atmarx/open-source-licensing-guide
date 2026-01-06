@@ -1,3 +1,7 @@
+---
+title: Open Source Licensing Guide
+---
+
 <div class="hero" markdown>
   <img src="assets/images/lighthouse-hero.webp" alt="Lighthouse illustration">
   <div class="hero-overlay">

@@ -1,3 +1,7 @@
+---
+title: Lessons Learned
+---
+
 <div class="hero hero-half" markdown>
   <img src="../assets/images/lessons-learned-hero.webp" alt="Art deco illustration of historical records">
   <div class="hero-overlay">

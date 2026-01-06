@@ -1,3 +1,7 @@
+---
+title: Creative Commons Licenses
+---
+
 <div class="hero hero-half" markdown>
   <img src="../assets/images/creative-commons-hero.webp" alt="Art deco illustration of creative works">
   <div class="hero-overlay">

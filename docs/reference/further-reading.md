@@ -22,7 +22,7 @@ These cover similar ground with different approaches:
 
 - **[Open Source Licenses Explained](https://itsfoss.com/open-source-licenses-explained/)** — It's FOSS coverage of the major licenses. Good for quick comparisons.
 
-- **[Open Source License Best Practices](https://www.linuxfoundation.org/licensebestpractices)** — Linux Foundation's compliance-focused guide. Covers SPDX identifiers, SBOMs, and enterprise governance topics this guide doesn't address in depth.
+- **[Open Source License Best Practices](https://www.linuxfoundation.org/licensebestpractices)** — Linux Foundation's compliance-focused guide. Covers SPDX identifiers, SBOMs, and enterprise governance topics this guide doesn't address in depth. (I cover SBOMs and supply chain security in [my software building guide](https://build.xram.net/security/sbom/).)
 
 ## Books
 

@@ -106,7 +106,7 @@ This isn't a crisis anymore. It's how things work now.
 **When adopting:**
 - Assume single-company projects might relicense
 - Check if a foundation fork exists or is likely
-- Have migration plans for critical dependencies
+- Have migration plans for critical dependencies (see [my software building guide](https://build.xram.net/concepts/understanding-risk/) for more on evaluating dependency risks)
 
 **When building:**
 - If you want to prevent relicensing, use foundation governance from the start

@@ -17,7 +17,6 @@ It doesn't. It never did.
 
 ## Why This Guide Exists
 
-
 Every open source license is a legal agreement. When you use open source software, you're entering into a contract with people you've never met, agreeing to terms you probably haven't read. When you release your own work, you're making promises that will outlive your involvement with the project.
 
 I wrote this guide because I got tired of watching people make the same mistakes. The concepts aren't hard, but they're not intuitive either—and the consequences of getting them wrong are real.

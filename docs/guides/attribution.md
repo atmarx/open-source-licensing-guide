@@ -256,6 +256,8 @@ Based on work by Jane Smith, CC BY 4.0
 - **license-checker** (npm) - List dependency licenses
 - **pip-licenses** (Python) - License info for pip packages
 
+I discuss these tools and Software Bills of Materials (SBOMs) in more detail in [my software building guide](https://build.xram.net/security/sbom/).
+
 ### SPDX
 
 SPDX (Software Package Data Exchange) provides standardized license identifiers:

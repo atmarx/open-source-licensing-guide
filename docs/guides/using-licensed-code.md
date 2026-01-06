@@ -65,7 +65,7 @@ Before using any code:
 
     ---
 
-    Package managers make this easy—dependencies are installed, not distributed, so you typically don't need to include all license files. But if you **bundle** dependencies (webpack, etc.), include a notices file. Tools like `license-checker` or `pip-licenses` can generate these.
+    Package managers make this easy—dependencies are installed, not distributed, so you typically don't need to include all license files. But if you **bundle** dependencies (webpack, etc.), include a notices file. Tools like `license-checker` or `pip-licenses` can generate these. I cover dependency management in depth in [my software building guide](https://build.xram.net/).
 
 -   :material-stack-overflow:{ .lg .middle } **Using code from Stack Overflow**
 
@@ -184,3 +184,6 @@ Watch out for:
 4. **When adding code manually,** include the license info immediately
 5. **Document your license decisions** for future reference
 6. **When in doubt, ask** the copyright holder or legal counsel
+
+!!! tip "Beyond licensing"
+    License compliance is just one piece of dependency management. For guidance on evaluating dependencies, understanding supply chain risks, and building software responsibly, see [my software building guide](https://build.xram.net/).

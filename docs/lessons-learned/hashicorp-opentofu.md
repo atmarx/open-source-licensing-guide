@@ -88,7 +88,7 @@ When adopting infrastructure tools:
 
 - Check the governance, not just the current license
 - Single-company projects carry relicensing risk
-- Have migration plans for critical dependencies
+- Have migration plans for critical dependencies (see [my software building guide](https://build.xram.net/) for more on dependency evaluation)
 
 When building open source:
 

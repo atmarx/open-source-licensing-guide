@@ -106,6 +106,8 @@ When using "free" enterprise software:
 - Have migration plans for alternative distributions
 - Track licensing changes proactively
 
+For more on evaluating dependencies and managing supply chain risks, see [my software building guide](https://build.xram.net/concepts/evaluating-dependencies/).
+
 When evaluating Java specifically:
 
 - Eclipse Adoptium (Temurin) is a safe, community-governed choice

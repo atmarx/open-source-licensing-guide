@@ -55,6 +55,18 @@
   }
 }
 
+/* Target highlight: fade in fast, fade out slow */
+@keyframes target-highlight {
+  0% { background-color: transparent; }
+  15% { background-color: var(--md-accent-fg-color--transparent); }
+  100% { background-color: transparent; }
+}
+
+.md-typeset :target {
+  animation: target-highlight 3s ease-out;
+  scroll-margin-top: 4em;
+}
+
 /* Subtle header styling */
 .md-typeset h2,
 .md-typeset h3 {

@@ -2,7 +2,7 @@
 
 ## About the Voice
 
-If you've read the Preface, you've met the narrator—a grizzled veteran who watched the free software movement unfold from the beginning. That voice is a deliberate choice.
+If you've read any of the pages on this site already, you've met the narrator—[a grizzled veteran who watched the free software movement unfold](./preface.md) from the beginning. That voice is a deliberate choice.
 
 I wanted this guide to feel like getting advice from someone who'd seen it all. Not a legal textbook, not a Wikipedia article, but the kind of practical wisdom you'd get from a mentor who's been around long enough to know where the bodies are buried. The voice is a composite—part oral history, part active participant in the madness, and part "the tone I wish someone had used when explaining this stuff to me".
 
@@ -10,7 +10,7 @@ The events are real. The lessons are real. The "*I was there*" framing is a narr
 
 ## About Me
 
-My name's Andrew, and I was born in 1983—the same year Richard Stallman announced the GNU Project. My dad brought home an IBM AT when I was five, and I've been fixing, using, and explaining computers ever since.
+My name's Andrew, and I was born in 1983—the same year Richard Stallman announced [the GNU Project](https://www.gnu.org/). My dad brought home an [IBM PC AT](https://en.wikipedia.org/wiki/IBM_Personal_Computer_AT) when I was five, and I've been fixing, using, and explaining computers ever since.
 
 I grew up in the middle of it. My dad replaced the AT with a 386DX-33 and I got my first taste of Windows 3 after years of only DOS. We finally retired the dot matrix printer that had buzzed through my childhood (including the first printed report my 1st grade teacher had ever received from a pupil), replacing it with a slick laser that could spit out *multiple* pages a minute. I read [*Where Wizards Stay Up Late*](https://www.simonandschuster.com/books/Where-Wizards-Stay-Up-Late/Katie-Hafner/9780684832678) and wanted to start my own ISP. I was my high school's webmaster while the browser wars raged (*"it's fine in Navigator, but why does it look so weird in IE4?"*).
 
@@ -31,6 +31,10 @@ I built this guide with Claude, Anthropic's AI assistant. Claude helped me resea
 The collaboration worked like this: I knew what I wanted to say and roughly how I wanted to say it. Claude helped me say it clearly, consistently, and with proper citations. Every claim is sourced, and every opinion is marked as opinion. The errors that remain are mine.
 
 Using AI to write about open source licensing feels appropriate, somehow, given how much of the software used to build the LLMs rely on these very same licenses. Similar to what the theory of linguistic relativity says about language defining the bounds of our possible worldviews, the tools we use to create and develop shape *how* we work.  My use of AI has allowed this project to be far more complete and complex than I could have otherwise accomplished. Acknowledging this use is critical as we find ourselves surrounded by more and more "AI slop"--which I hope this guide is not just another example of!
+
+## Companion Guide
+
+This guide has a sibling: [The Weight of Your Dependencies](https://build.xram.net), which covers the practical side of building software responsibly—dependency management, supply chain security, and what happens when the code you rely on changes out from under you. If licensing tells you what you *can* do with code, that guide helps you think about what you *should* do.
 
 ## License
 

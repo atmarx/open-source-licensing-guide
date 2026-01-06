@@ -10,7 +10,7 @@ The events are real. The lessons are real. The "*I was there*" framing is a narr
 
 ## About Me
 
-My name's Andrew, and I was born in 1983—the same year Richard Stallman announced [the GNU Project](https://www.gnu.org/). My dad brought home an [IBM PC AT](https://en.wikipedia.org/wiki/IBM_Personal_Computer_AT) when I was five, and I've been fixing, using, and explaining computers ever since.
+My name's [Andrew](https://xram.net/), and I was born in 1983—the same year Richard Stallman announced [the GNU Project](https://www.gnu.org/). My dad brought home an [IBM PC AT](https://en.wikipedia.org/wiki/IBM_Personal_Computer_AT) when I was five, and I've been fixing, using, and explaining computers ever since.
 
 I grew up in the middle of it. My dad replaced the AT with a 386DX-33 and I got my first taste of Windows 3 after years of only DOS. We finally retired the dot matrix printer that had buzzed through my childhood (including the first printed report my 1st grade teacher had ever received from a pupil), replacing it with a slick laser that could spit out *multiple* pages a minute. I read [*Where Wizards Stay Up Late*](https://www.simonandschuster.com/books/Where-Wizards-Stay-Up-Late/Katie-Hafner/9780684832678) and wanted to start my own ISP. I was my high school's webmaster while the browser wars raged (*"it's fine in Navigator, but why does it look so weird in IE4?"*).
 

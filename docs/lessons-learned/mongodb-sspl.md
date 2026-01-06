@@ -19,7 +19,7 @@ MongoDB's response: the Server Side Public License (SSPL).[^mongodb-sspl]
 
 ## The SSPL
 
-SSPL is [AGPL](../licenses/other/agpl.md) on steroids. Like AGPL, it requires [source code disclosure](../concepts/rights-and-obligations.md#source-code-provision-copyleft-only)) when software is offered over a network. Unlike AGPL, the disclosure requirement extends to the *entire stack*:
+SSPL is [AGPL](../licenses/other/agpl.md) on steroids. Like AGPL, it requires [source code disclosure](../concepts/rights-and-obligations.md#source-code-provision-copyleft-only) when software is offered over a network. Unlike AGPL, the disclosure requirement extends to the *entire stack*:
 
 > If you make the functionality of the Program or a modified version available to third parties as a service, you must make the Service Source Code available... "Service Source Code" means the Corresponding Source for the Program or the modified version, and the Corresponding Source for all programs that you use to make the Program or modified version available as a service, including... management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software, all such that a user could run an instance of the service using the Service Source Code you make available.
 

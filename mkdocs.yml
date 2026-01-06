@@ -49,6 +49,8 @@ theme:
   
   custom_dir: docs/overrides
 
+  logo: assets/images/x-200.png
+
 # Plugins
 plugins:
   - search:
@@ -170,3 +172,16 @@ nav:
 # Copyright
 copyright: >
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">© 2026 Andrew Marx — CC BY-NC 4.0</a>
+
+# Footer social links
+extra:
+  social:
+    - icon: fontawesome/solid/user
+      link: https://xram.net
+      name: xram.net
+    - icon: fontawesome/brands/github
+      link: https://github.com/atmarx/building-software-guide
+      name: Source on GitHub
+    - icon: fontawesome/solid/mug-hot
+      link: https://buymeacoffee.com/atmarx
+      name: Buy me a coffee

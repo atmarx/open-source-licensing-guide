@@ -1,5 +1,5 @@
 <div class="hero" markdown>
-  <img src="assets/images/server-room-art-deco-hero.webp" alt="Art deco server room illustration">
+  <img src="assets/images/reading-room-hero.webp" alt="Art deco server room illustration">
   <div class="hero-overlay">
     <h1>Open Source Licensing Guide</h1>
     <p>Understanding your rights, obligations, and options</p>

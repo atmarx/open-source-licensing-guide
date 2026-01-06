@@ -1,4 +1,10 @@
-# Creative Commons Licenses
+<div class="hero hero-half" markdown>
+  <img src="../assets/images/creative-commons-hero.webp" alt="Art deco illustration of creative works">
+  <div class="hero-overlay">
+    <h1>Creative Commons Licenses</h1>
+    <p>For everything that isn't code</p>
+  </div>
+</div>
 
 Creative Commons (CC) licenses are designed for creative works—text, images, data, documentation, music, video—rather than software code. For researchers, these are often more relevant than software licenses because they apply to datasets, papers, educational materials, and other non-code outputs.
 

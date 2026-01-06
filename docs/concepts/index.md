@@ -1,4 +1,10 @@
-# Understanding Open Source
+<div class="hero hero-half" markdown>
+  <img src="../assets/images/concepts-hero.webp" alt="Art deco illustration of foundational concepts">
+  <div class="hero-overlay">
+    <h1>Understanding Open Source</h1>
+    <p>The foundations that everything else builds on</p>
+  </div>
+</div>
 
 Before we get into the specifics of individual licenses, we need to establish some common ground. I've spent too many hours in meetings where everyone nodded along using the same words but meaning completely different things.
 

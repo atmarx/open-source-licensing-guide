@@ -1,4 +1,10 @@
-# Lessons Learned
+<div class="hero hero-half" markdown>
+  <img src="../assets/images/lessons-learned-hero.webp" alt="Art deco illustration of historical records">
+  <div class="hero-overlay">
+    <h1>Lessons Learned</h1>
+    <p>What happens when licensing goes wrong</p>
+  </div>
+</div>
 
 I've watched licensing disputes unfold in real time for decades. Some were predictable. Some blindsided everyone. All of them taught us something.
 

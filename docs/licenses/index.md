@@ -1,4 +1,10 @@
-# Software Licenses
+<div class="hero hero-half" markdown>
+  <img src="../assets/images/licenses-hero.webp" alt="Art deco illustration of legal documents">
+  <div class="hero-overlay">
+    <h1>Software Licenses</h1>
+    <p>The agreements that govern code</p>
+  </div>
+</div>
 
 This section covers the most widely used open source licenses for software. Each license page explains the terms, typical use cases, and practical implications.
 

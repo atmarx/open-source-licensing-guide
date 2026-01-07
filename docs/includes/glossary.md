@@ -32,3 +32,4 @@
 *[OSI-approved]: A license officially recognized by the Open Source Initiative
 *[FOSS]: Free and Open Source Software
 *[FLOSS]: Free/Libre and Open Source Software - emphasizes the freedom aspect
+*[Tivoization]: Using hardware restrictions to prevent running modified software, even when source is available

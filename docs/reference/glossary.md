@@ -184,6 +184,13 @@ The right to grant license rights to others. Permissive licenses generally allow
 
 ---
 
+## T
+
+### Tivoization*
+Using hardware restrictions to prevent users from running modified software, even when the source code is available. Named after TiVo devices that ran GPL-licensed Linux but used cryptographic signatures to block user modifications. GPL v3 specifically prohibits this practice.
+
+---
+
 ## U
 
 ### Upstream*

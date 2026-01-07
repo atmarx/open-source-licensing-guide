@@ -1,6 +1,6 @@
 # GNU General Public License (GPL)
 
-The GPL is the most important copyleft license and one of the most influential licenses in software history. Created by Richard Stallman and the FSF, it embodies the philosophy that software freedom must be preserved.
+The GPL is the most important copyleft license and one of the most influential licenses in software history. Created by Richard Stallman and [the FSF](https://www.fsf.org/), it embodies the philosophy that software freedom must be preserved.
 
 ## Versions
 

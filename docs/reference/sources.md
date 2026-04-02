@@ -54,6 +54,11 @@ Software Freedom Conservancy. "BusyBox GPL Enforcement." 2007-2015.
 
 ## C
 
+### California AB 2013 Training Data Transparency
+<!-- slug: california-ab-2013-training-data-transparency -->
+California Legislature. "AB-2013 Generative artificial intelligence: training data transparency." Signed September 2024, effective January 1, 2026.
+<a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013">https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013</a>
+
 ### CISPE Broadcom Acquisition Challenge
 <!-- slug: cispe-broadcom-acquisition-challenge -->
 CISPE. "CISPE Takes European Commission to Court to Annul Approval of Broadcom's Acquisition of VMware." July 2025.
@@ -73,6 +78,26 @@ Crockford, Douglas. "JSON License." Accessed 2024.
 
 ## D
 
+### Doe v. GitHub Copilot Lawsuit
+<!-- slug: doe-v-github-copilot-lawsuit -->
+Joseph Saveri Law Firm. "GitHub Copilot Intellectual Property Litigation." Filed November 3, 2022. N.D. Cal.
+<a href="https://www.saverilawfirm.com/our-cases/github-copilot-intellectual-property-litigation">https://www.saverilawfirm.com/our-cases/github-copilot-intellectual-property-litigation</a>
+
+### Doe v. GitHub DMCA Claims Dismissed
+<!-- slug: doe-v-github-dmca-claims-dismissed -->
+Legal.io. "Judge Throws Out Majority of Claims in GitHub Copilot Lawsuit." July 2024.
+<a href="https://www.legal.io/articles/5516216/Judge-Throws-Out-Majority-of-Claims-in-GitHub-Copilot-Lawsuit">https://www.legal.io/articles/5516216/Judge-Throws-Out-Majority-of-Claims-in-GitHub-Copilot-Lawsuit</a>
+
+### Doe v. GitHub Remaining Claims
+<!-- slug: doe-v-github-remaining-claims -->
+Finnegan. "Insights from the Pending Copilot Class Action Lawsuit." 2024.
+<a href="https://www.finnegan.com/en/insights/articles/insights-from-the-pending-copilot-class-action-lawsuit.html">https://www.finnegan.com/en/insights/articles/insights-from-the-pending-copilot-class-action-lawsuit.html</a>
+
+### Doe v. GitHub Ninth Circuit Appeal
+<!-- slug: doe-v-github-ninth-circuit-appeal -->
+Patent AI Lab. "GitHub Copilot Lawsuit Update (Feb 2026): Is Your Code Safe?" February 2026.
+<a href="https://patentailab.com/doe-v-github-lawsuit-explained-ai-copyright-rules/">https://patentailab.com/doe-v-github-lawsuit-explained-ai-copyright-rules/</a>
+
 ### Debian JSON License Discussion
 <!-- slug: debian-json-license-discussion -->
 Debian Project. "JSON License Discussion." Debian Legal Mailing List. 2005.
@@ -91,6 +116,11 @@ ECCO (European Cloud Competition Observatory). "Reports on Broadcom VMware Licen
 <!-- slug: eclipse-public-license-20 -->
 Eclipse Foundation. "Eclipse Public License - v 2.0." August 2017.
 <a href="https://www.eclipse.org/legal/epl-2.0/">https://www.eclipse.org/legal/epl-2.0/</a>
+
+### Entr'ouvert v. Orange GPL Damages
+<!-- slug: entrouvert-v-orange-gpl-damages -->
+Meeker, Heather. "French Court Issues Damages Award for Violation of GPL." February 2024.
+<a href="https://heathermeeker.com/2024/02/17/french-court-issues-damages-award-for-violation-of-gpl/">https://heathermeeker.com/2024/02/17/french-court-issues-damages-award-for-violation-of-gpl/</a>
 
 ### Elastic License Change Announcement
 <!-- slug: elastic-license-change-announcement -->
@@ -134,6 +164,11 @@ Free Software Foundation. "Various Licenses and Comments About Them." Accessed 2
 ---
 
 ## G
+
+### GEMA v. OpenAI Munich Ruling
+<!-- slug: gema-v-openai-munich-ruling -->
+Bird & Bird. "Landmark ruling of the Munich Regional Court (GEMA v OpenAI) on copyright and AI training." November 2025.
+<a href="https://www.twobirds.com/en/insights/2025/landmark-ruling-of-the-munich-regional-court-(gema-v-openai)-on-copyright-and-ai-training">https://www.twobirds.com/en/insights/2025/landmark-ruling-of-the-munich-regional-court-(gema-v-openai)-on-copyright-and-ai-training</a>
 
 ### GPL License History
 <!-- slug: gpl-license-history -->
@@ -208,6 +243,11 @@ SiliconANGLE. "VMware defections propel Nutanix to another strong earnings beat.
 ---
 
 ## O
+
+### OSI Open Source AI Definition
+<!-- slug: osi-open-source-ai-definition -->
+Open Source Initiative. "The Open Source AI Definition 1.0." October 2024.
+<a href="https://opensource.org/ai/open-source-ai-definition">https://opensource.org/ai/open-source-ai-definition</a>
 
 ### Open Source Definition
 <!-- slug: open-source-definition -->
@@ -313,6 +353,11 @@ Software Freedom Conservancy. "Some Unfortunate Delays in our Struggle for Copyl
 FOSDEM. "The story of the Vizio lawsuit — a historic case for user rights, nearly complete!" FOSDEM 2026.
 <a href="https://fosdem.org/2026/schedule/event/GSERGW-the_story_of_the_vizio_lawsuit_-_a_historic_case_for_user_rights_nearly_complete/">https://fosdem.org/2026/schedule/event/GSERGW-the_story_of_the_vizio_lawsuit_-_a_historic_case_for_user_rights_nearly_complete/</a>
 
+### Steck v. AVM LGPL Enforcement
+<!-- slug: steck-v-avm-lgpl-enforcement -->
+Software Freedom Conservancy. "SFC-funded lawsuit gets software repair and reinstall for users of AVM routers." January 2025.
+<a href="https://sfconservancy.org/news/2025/jan/09/avm-copyleft-lawsuit-resolved-with-install/">https://sfconservancy.org/news/2025/jan/09/avm-copyleft-lawsuit-resolved-with-install/</a>
+
 ### SCO v. IBM Litigation Timeline
 <!-- slug: sco-v-ibm-litigation-timeline -->
 Groklaw. "SCO v. IBM Timeline." 2003-2011.
@@ -336,6 +381,15 @@ Open Source Initiative. "The SSPL Is Not an Open Source License." January 2019.
 <!-- slug: stack-overflow-content-license -->
 Stack Overflow. "Licensing." Accessed 2024.
 <a href="https://stackoverflow.com/help/licensing">https://stackoverflow.com/help/licensing</a>
+
+---
+
+## U
+
+### US Copyright Office AI Report Part 2
+<!-- slug: us-copyright-office-ai-report-part-2 -->
+U.S. Copyright Office. "Copyright and Artificial Intelligence, Part 2: Copyrightability." January 2025.
+<a href="https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf">https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf</a>
 
 ---
 

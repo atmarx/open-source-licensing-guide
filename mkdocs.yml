@@ -159,6 +159,8 @@ nav:
       - Redis Relicensing: lessons-learned/redis-relicensing.md
       - "VMware & Proxmox": lessons-learned/vmware-proxmox.md
       - Java Licensing: lessons-learned/java-licensing.md
+    - The New Frontier:
+      - AI and Open Source: lessons-learned/ai-licensing.md
     - Quirks & Edge Cases:
       - The JSON License: lessons-learned/json-license.md
       - ZFS on Linux: lessons-learned/zfs-linux.md

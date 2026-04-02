@@ -86,6 +86,20 @@ When open source business models collide with cloud providers:
 
 </div>
 
+### The New Frontier
+
+Where licensing meets the machines:
+
+<div class="grid cards" markdown>
+
+-   :material-robot:{ .lg .middle } **[AI and Open Source](ai-licensing.md)**
+
+    ---
+
+    *2022–present* — Open source licenses meet machine learning
+
+</div>
+
 ### The Quirks and Edge Cases
 
 Smaller incidents with useful lessons:

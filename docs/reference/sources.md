@@ -264,10 +264,20 @@ Facebook Engineering. "Relicensing React, Jest, Flow, and Immutable.js." Septemb
 <!-- slug: red-hat-ipo -->
 Various. "Red Hat IPO." August 1999. Referenced in financial news archives.
 
+### Redis 8 GA Announcement
+<!-- slug: redis-8-ga-announcement -->
+Redis Ltd. "Redis 8 is now GA, loaded with new features and more than 30 performance improvements." 2025.
+<a href="https://redis.io/blog/redis-8-ga/">https://redis.io/blog/redis-8-ga/</a>
+
 ### Redis Dual License Change
 <!-- slug: redis-dual-license-change -->
 Redis Ltd. "Redis Adopts Dual Source-Available Licensing." March 2024.
 <a href="https://redis.io/blog/redis-adopts-dual-source-available-licensing/">https://redis.io/blog/redis-adopts-dual-source-available-licensing/</a>
+
+### Redis Software 7.2 End of Life
+<!-- slug: redis-software-72-end-of-life -->
+Percona. "It's End of Life for Redis Enterprise 7.2 in Six Months — What Are Your Options?" 2025.
+<a href="https://www.percona.com/blog/its-end-of-life-for-redis-enterprise-7-2-in-six-months-what-are-your-options/">https://www.percona.com/blog/its-end-of-life-for-redis-enterprise-7-2-in-six-months-what-are-your-options/</a>
 
 ---
 
@@ -300,6 +310,16 @@ Stack Overflow. "Licensing." Accessed 2024.
 ---
 
 ## V
+
+### Valkey 9.0 Release
+<!-- slug: valkey-90-release -->
+Valkey Project. "Valkey 9.0: innovation, features, and improvements." September 2025.
+<a href="https://valkey.io/blog/introducing-valkey-9/">https://valkey.io/blog/introducing-valkey-9/</a>
+
+### Valkey Investment in Open Source
+<!-- slug: valkey-investment-in-open-source -->
+Valkey Project. "Valkey: An Investment in Open Source." 2025.
+<a href="https://valkey.io/blog/valkey-investment-in-open-source/">https://valkey.io/blog/valkey-investment-in-open-source/</a>
 
 ### Veeam Proxmox VE Support
 <!-- slug: veeam-proxmox-ve-support -->

@@ -283,6 +283,36 @@ Percona. "It's End of Life for Redis Enterprise 7.2 in Six Months — What Are Y
 
 ## S
 
+### SFC v. Vizio Case Page
+<!-- slug: sfc-v-vizio-case-page -->
+Software Freedom Conservancy. "Software Freedom Conservancy v. Vizio Inc." Accessed 2026.
+<a href="https://sfconservancy.org/copyleft-compliance/vizio.html">https://sfconservancy.org/copyleft-compliance/vizio.html</a>
+
+### SFC v. Vizio: Who Can Enforce the GPL?
+<!-- slug: sfc-v-vizio-who-can-enforce-the-gpl -->
+Corbet, Jonathan. "SFC v. VIZIO: who can enforce the GPL?" LWN.net. January 2026.
+<a href="https://lwn.net/Articles/1052734/">https://lwn.net/Articles/1052734/</a>
+
+### SFC v. Vizio Survives Summary Judgment
+<!-- slug: sfc-v-vizio-survives-summary-judgment -->
+DLA Piper. "SFC v. Vizio survives motion for summary judgment on third-party beneficiary issue." January 2024.
+<a href="https://www.dlapiper.com/en/insights/publications/2024/01/sfc-v-vizio-survives-motion-for-summary-judgment-on-third-party-beneficiary-issue">https://www.dlapiper.com/en/insights/publications/2024/01/sfc-v-vizio-survives-motion-for-summary-judgment-on-third-party-beneficiary-issue</a>
+
+### SFC v. Vizio Tentative Ruling
+<!-- slug: sfc-v-vizio-tentative-ruling -->
+Software Freedom Conservancy. "Judge Issues Tentative Ruling in Favor of SFC." December 2025.
+<a href="https://sfconservancy.org/news/2025/dec/04/tentative-vizio-ruling-in-favor-of-sfc/">https://sfconservancy.org/news/2025/dec/04/tentative-vizio-ruling-in-favor-of-sfc/</a>
+
+### SFC v. Vizio Trial Delay
+<!-- slug: sfc-v-vizio-trial-delay -->
+Software Freedom Conservancy. "Some Unfortunate Delays in our Struggle for Copyleft Justice." January 2026.
+<a href="https://sfconservancy.org/blog/2026/jan/26/delay-in-start-of-vizio-trial/">https://sfconservancy.org/blog/2026/jan/26/delay-in-start-of-vizio-trial/</a>
+
+### SFC v. Vizio FOSDEM 2026 Talk
+<!-- slug: sfc-v-vizio-fosdem-2026-talk -->
+FOSDEM. "The story of the Vizio lawsuit — a historic case for user rights, nearly complete!" FOSDEM 2026.
+<a href="https://fosdem.org/2026/schedule/event/GSERGW-the_story_of_the_vizio_lawsuit_-_a_historic_case_for_user_rights_nearly_complete/">https://fosdem.org/2026/schedule/event/GSERGW-the_story_of_the_vizio_lawsuit_-_a_historic_case_for_user_rights_nearly_complete/</a>
+
 ### SCO v. IBM Litigation Timeline
 <!-- slug: sco-v-ibm-litigation-timeline -->
 Groklaw. "SCO v. IBM Timeline." 2003-2011.
@@ -354,6 +384,18 @@ Referenced in Canonical, Debian, and Fedora project documentation.
 - **2021:** Supreme Court rules for Google on fair use grounds (6-2)
 
 Source: Court records and reporting from Ars Technica, The Verge, and legal commentary.
+
+### SFC v. Vizio Litigation Timeline
+<!-- slug: sfc-v-vizio-litigation-timeline -->
+- **2021:** SFC files suit in California state court (Orange County) as a consumer/third-party beneficiary
+- **2022:** Case survives removal to federal court, remanded back to state court
+- **2024:** Survives Vizio's motion for summary judgment on third-party beneficiary issue
+- **2025 (Jul):** SFC files updated motion for summary adjudication
+- **2025 (Dec):** Judge Leal issues tentative ruling: Vizio must provide source code (direct contract theory)
+- **2026 (Jan):** Trial delayed from January due to docket congestion
+- **2026 (Aug):** Trial rescheduled for August 10–19, 2026
+
+Source: SFC case page, LWN.net, DLA Piper, court records (Orange County Superior Court, Case No. 2021-01209526).
 
 ---
 

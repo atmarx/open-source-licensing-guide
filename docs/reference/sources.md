@@ -72,6 +72,16 @@ Eclipse Foundation. "Eclipse Public License - v 2.0." August 2017.
 Banon, Shay. "Doubling Down on Open." Elastic Blog. January 2021.
 <a href="https://www.elastic.co/blog/licensing-change">https://www.elastic.co/blog/licensing-change</a>
 
+### Elastic AGPL Relicensing Announcement
+<!-- slug: elastic-agpl-relicensing-announcement -->
+Banon, Shay. "Elasticsearch is Open Source. Again!" Elastic Blog. August 2024.
+<a href="https://www.elastic.co/blog/elasticsearch-is-open-source-again">https://www.elastic.co/blog/elasticsearch-is-open-source-again</a>
+
+### Elastic Community Trust After Relicensing
+<!-- slug: elastic-community-trust-after-relicensing -->
+IT Pro. "Elastic returns to open source, but can it regain the community's trust?" September 2024.
+<a href="https://www.itpro.com/software/open-source/elastic-returns-to-open-source-but-can-it-regain-the-communitys-trust-some-industry-players-arent-holding-their-breath">https://www.itpro.com/software/open-source/elastic-returns-to-open-source-but-can-it-regain-the-communitys-trust-some-industry-players-arent-holding-their-breath</a>
+
 ### OpenSearch Fork Announcement
 <!-- slug: opensearch-fork-announcement -->
 Amazon Web Services. "Introducing OpenSearch." April 2021.

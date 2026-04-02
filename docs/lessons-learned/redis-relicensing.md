@@ -38,7 +38,7 @@ Fedora, Debian, and others began discussing removal of Redis and inclusion of Va
 | Project | Year | Old License | New License | Fork |
 |---------|------|-------------|-------------|------|
 | MongoDB | 2018 | AGPL | SSPL | (various) |
-| Elasticsearch | 2021 | Apache 2.0 | SSPL/Elastic | OpenSearch |
+| Elasticsearch | 2021 | Apache 2.0 | SSPL/Elastic (AGPL added 2024) | OpenSearch |
 | Terraform | 2023 | MPL | BSL | OpenTofu |
 | Redis | 2024 | BSD | RSALv2/SSPL | Valkey |
 

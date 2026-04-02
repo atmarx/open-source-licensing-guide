@@ -10,6 +10,9 @@ Elastic, the company behind Elasticsearch and Kibana, changed their license.[^el
 
 Neither is [open source](../licenses/other/source-available.md). The Apache-licensed Elasticsearch was gone.
 
+!!! update "2024 Update"
+    In August 2024, Elastic added [AGPL v3](../licenses/other/agpl.md) as a third licensing option for Elasticsearch and Kibana.[^elastic-agpl] Elasticsearch is technically open source again — but under a very different license than the Apache 2.0 it started with.  Whether this rebuilds community trust is another question entirely.
+
 Their stated reason: Amazon. AWS offered Elasticsearch as a managed service and had even created their own distribution called "Open Distro for Elasticsearch." Elastic felt AWS was benefiting from their work without contributing back.
 
 ## Amazon's Response
@@ -29,8 +32,8 @@ This wasn't just a corporate fork. AWS invested in community building, accepted 
 
 The search engine market now has:
 
-- **Elasticsearch** — Elastic's product, under restrictive licenses
-- **OpenSearch** — AWS-backed fork, under Apache 2.0
+- **Elasticsearch** — Elastic's product, now tri-licensed under SSPL, Elastic License 2.0, and AGPL v3
+- **OpenSearch** — AWS-backed fork, under Apache 2.0, now a Linux Foundation project with 1,400+ contributors
 
 Both are actively developed. Both have users. The community split.
 
@@ -56,9 +59,11 @@ The company that many saw as the problem became, in this instance, part of the s
 
 Elastic owned the "Elasticsearch" trademark. AWS couldn't use it. Hence "OpenSearch"—a rebrand for a fork. Trademarks, not copyright, determined what the fork could be called.
 
-### Elastic's business continued
+### Elastic came back — sort of
 
-Elastic didn't collapse. Their stock recovered. Their business model shifted but survived. The license change accomplished its business goal, even as it cost community goodwill.
+Elastic didn't collapse. Their stock recovered. Their business model shifted but survived.  And then in 2024, they added AGPL as a licensing option — making Elasticsearch open source again, three years after closing it.
+
+But the damage was done.  OpenSearch had matured under the Linux Foundation with independent governance and a growing contributor base.  Developers who migrated aren't rushing back.[^elastic-trust]  It turns out you can re-open the source, but you can't un-fork the community.
 
 ## The Lessons
 
@@ -73,6 +78,10 @@ Elastic controlled "Elasticsearch." AWS had to rebrand. If you're building an op
 ### Community governance prevents this
 
 Single-company projects can relicense at will. Foundation-governed projects (Apache, Linux, Mozilla) cannot—the contribution agreements don't permit it. If you're choosing a dependency, governance structure is a risk factor.
+
+### Relicensing can be reversed — but forks can't
+
+Elastic proved that closing source is reversible.  Adding AGPL gave Elasticsearch an open source license again.  But the fork was irreversible.  OpenSearch exists, has momentum, and has independent governance.  The community split is permanent even if the licensing issue isn't.
 
 ### The cloud wars reshape open source
 
@@ -95,3 +104,5 @@ When building open source:
 
 [^elastic-change]: See [Elastic License Change Announcement](../reference/sources.md#elastic-license-change-announcement)
 [^opensearch]: See [OpenSearch Fork Announcement](../reference/sources.md#opensearch-fork-announcement)
+[^elastic-agpl]: See [Elastic AGPL Relicensing Announcement](../reference/sources.md#elastic-agpl-relicensing-announcement)
+[^elastic-trust]: See [Elastic Community Trust After Relicensing](../reference/sources.md#elastic-community-trust-after-relicensing)

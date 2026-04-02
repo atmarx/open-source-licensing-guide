@@ -2,6 +2,9 @@ when:
   - event: push
     branch: main
 
+labels:
+  host: xdocker01
+
 depends_on:
   - build
 

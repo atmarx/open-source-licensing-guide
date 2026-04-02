@@ -1,0 +1,14 @@
+services:
+  app:
+    image: git.dev.xram.net/atmarx/open-source-licensing-guide:latest
+    container_name: open-source-licensing-guide-app
+    restart: unless-stopped
+    expose:
+      - "3000"
+    networks:
+      - gateway
+
+networks:
+  gateway:
+    external: true
+    name: gateway-stack_gateway

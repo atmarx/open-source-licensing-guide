@@ -1,0 +1,40 @@
+when:
+  - event: push
+    branch: main
+
+steps:
+  - name: build-and-push
+    labels:
+      platform: build
+    image: docker:cli
+    environment:
+      GITEA_TOKEN:
+        from_secret: gitea_token
+    commands:
+      - echo "$GITEA_TOKEN" | docker login -u ${CI_REPO_OWNER} --password-stdin git.dev.xram.net
+      - docker build -t git.dev.xram.net/${CI_REPO}:${CI_COMMIT_SHA:0:7} -t git.dev.xram.net/${CI_REPO}:latest .
+      - docker push git.dev.xram.net/${CI_REPO}:${CI_COMMIT_SHA:0:7}
+      - docker push git.dev.xram.net/${CI_REPO}:latest
+      - docker image prune -f
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  - name: deploy
+    image: docker:cli
+    environment:
+      GITEA_TOKEN:
+        from_secret: gitea_token
+    commands:
+      - apk add --no-cache git
+      - git config --global --add safe.directory /projects/${CI_REPO_NAME}
+      - |
+        if [ ! -d /projects/${CI_REPO_NAME} ]; then
+          git clone ${CI_REPO_CLONE_URL} /projects/${CI_REPO_NAME}
+        fi
+      - cd /projects/${CI_REPO_NAME}
+      - git fetch origin && git checkout ${CI_COMMIT_BRANCH} && git pull origin ${CI_COMMIT_BRANCH}
+      - echo "$GITEA_TOKEN" | docker login -u ${CI_REPO_OWNER} --password-stdin git.dev.xram.net
+      - cd deploy && docker compose pull && docker compose up -d
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /opt/projects:/projects

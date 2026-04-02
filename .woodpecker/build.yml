@@ -16,6 +16,6 @@ steps:
       - docker build -t git.dev.xram.net/${CI_REPO}:${CI_COMMIT_SHA:0:7} -t git.dev.xram.net/${CI_REPO}:latest .
       - docker push git.dev.xram.net/${CI_REPO}:${CI_COMMIT_SHA:0:7}
       - docker push git.dev.xram.net/${CI_REPO}:latest
-      - docker image prune -f
+      - docker image prune -f || true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock

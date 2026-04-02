@@ -6,6 +6,11 @@ This page collects sources for claims made throughout the guide. Entries are org
 
 ## A
 
+### AT&T Broadcom VMware Lawsuit
+<!-- slug: att-broadcom-vmware-lawsuit -->
+The Register. "AT&T claims 1,050% VMware price hike in Broadcom lawsuit filings." October 2024.
+<a href="https://www.theregister.com/2024/10/01/att_broadcom_filings_update/">https://www.theregister.com/2024/10/01/att_broadcom_filings_update/</a>
+
 ### Apache Software Foundation Legal FAQ
 <!-- slug: apache-software-foundation-legal-faq -->
 Apache Software Foundation. "ASF Legal Previously Asked Questions." Accessed 2024.
@@ -19,6 +24,16 @@ Apache Software Foundation. "Apache License, Version 2.0." January 2004.
 ---
 
 ## B
+
+### Broadcom VMware Acquisition
+<!-- slug: broadcom-vmware-acquisition -->
+Broadcom, Inc. "Broadcom and VMware Intend to Close Transaction on November 22, 2023." November 2023.
+<a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-and-vmware-intend-close-transaction-november-22-2023">https://investors.broadcom.com/news-releases/news-release-details/broadcom-and-vmware-intend-close-transaction-november-22-2023</a>
+
+### Broadcom Ends VMware Perpetual Licenses
+<!-- slug: broadcom-ends-vmware-perpetual-licenses -->
+Born, Günter. "Broadcom ends perpetual licenses for VMware products." Born's Tech and Windows World. January 2024.
+<a href="https://borncity.com/win/2024/01/17/broadcom-ends-perpetual-licenses-for-vmware-products-end-of-the-free-esxi-server/">https://borncity.com/win/2024/01/17/broadcom-ends-perpetual-licenses-for-vmware-products-end-of-the-free-esxi-server/</a>
 
 ### BSD Advertising Clause Removal
 <!-- slug: bsd-advertising-clause-removal -->
@@ -38,6 +53,11 @@ Software Freedom Conservancy. "BusyBox GPL Enforcement." 2007-2015.
 ---
 
 ## C
+
+### CISPE Broadcom Acquisition Challenge
+<!-- slug: cispe-broadcom-acquisition-challenge -->
+CISPE. "CISPE Takes European Commission to Court to Annul Approval of Broadcom's Acquisition of VMware." July 2025.
+<a href="https://www.cispe.cloud/cispe-takes-european-commission-to-court-to-annul-approval-of-broadcoms-acquisition-of-vmware/">https://www.cispe.cloud/cispe-takes-european-commission-to-court-to-annul-approval-of-broadcoms-acquisition-of-vmware/</a>
 
 ### Creative Commons License Versions
 <!-- slug: creative-commons-license-versions -->
@@ -61,6 +81,11 @@ Debian Project. "JSON License Discussion." Debian Legal Mailing List. 2005.
 ---
 
 ## E
+
+### ECCO Broadcom Licensing Report
+<!-- slug: ecco-broadcom-licensing-report -->
+ECCO (European Cloud Competition Observatory). "Reports on Broadcom VMware Licensing Practices." February–October 2025.
+<a href="https://www.theregister.com/2025/05/22/euro_cloud_body_ecco_says_broadcom_licensing_unfair/">https://www.theregister.com/2025/05/22/euro_cloud_body_ecco_says_broadcom_licensing_unfair/</a>
 
 ### Eclipse Public License 2.0
 <!-- slug: eclipse-public-license-20 -->
@@ -86,6 +111,11 @@ IT Pro. "Elastic returns to open source, but can it regain the community's trust
 <!-- slug: opensearch-fork-announcement -->
 Amazon Web Services. "Introducing OpenSearch." April 2021.
 <a href="https://aws.amazon.com/blogs/opensource/introducing-opensearch/">https://aws.amazon.com/blogs/opensource/introducing-opensearch/</a>
+
+### Free ESXi Hypervisor Discontinued
+<!-- slug: free-esxi-hypervisor-discontinued -->
+The Register. "Broadcom terminates VMware's free ESXi hypervisor." February 2024.
+<a href="https://www.theregister.com/2024/02/13/broadcom_ends_free_esxi_vsphere/">https://www.theregister.com/2024/02/13/broadcom_ends_free_esxi_vsphere/</a>
 
 ---
 
@@ -170,6 +200,11 @@ MongoDB, Inc. "MongoDB Licensing Changes." October 2018.
 Mozilla Foundation. "MPL 2.0 FAQ." January 2012.
 <a href="https://www.mozilla.org/en-US/MPL/2.0/FAQ/">https://www.mozilla.org/en-US/MPL/2.0/FAQ/</a>
 
+### Nutanix VMware Migration Growth
+<!-- slug: nutanix-vmware-migration-growth -->
+SiliconANGLE. "VMware defections propel Nutanix to another strong earnings beat." February 2025.
+<a href="https://siliconangle.com/2025/02/26/vmware-defections-propel-nutanix-another-strong-earnings-revenue-beat/">https://siliconangle.com/2025/02/26/vmware-defections-propel-nutanix-another-strong-earnings-revenue-beat/</a>
+
 ---
 
 ## O
@@ -198,6 +233,23 @@ Oracle Corporation. "Oracle Java SE Licensing FAQ." Updated 2019.
 <!-- slug: oracle-v-google-supreme-court-decision -->
 Supreme Court of the United States. "Google LLC v. Oracle America, Inc." April 2021.
 <a href="https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf">https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf</a>
+
+## P
+
+### Proxmox Virtual Environment
+<!-- slug: proxmox-virtual-environment -->
+Proxmox Server Solutions GmbH. "About Proxmox." Accessed 2026.
+<a href="https://www.proxmox.com/en/about/about-us/company">https://www.proxmox.com/en/about/about-us/company</a>
+
+### Proxmox VE 8.2 VMware Import Wizard
+<!-- slug: proxmox-ve-82-vmware-import-wizard -->
+Proxmox Server Solutions GmbH. "Proxmox Virtual Environment 8.2." April 2024.
+<a href="https://www.proxmox.com/en/about/press-releases/proxmox-virtual-environment-8-2">https://www.proxmox.com/en/about/press-releases/proxmox-virtual-environment-8-2</a>
+
+### Proxmox VE 9.0 Release
+<!-- slug: proxmox-ve-90-release -->
+Proxmox Server Solutions GmbH. "Proxmox VE 9.0." August 2025.
+<a href="https://www.proxmox.com/en/about/press-releases/proxmox-virtual-environment-9-0">https://www.proxmox.com/en/about/press-releases/proxmox-virtual-environment-9-0</a>
 
 ---
 
@@ -248,6 +300,11 @@ Stack Overflow. "Licensing." Accessed 2024.
 ---
 
 ## V
+
+### Veeam Proxmox VE Support
+<!-- slug: veeam-proxmox-ve-support -->
+Veeam Software. "Veeam Extends Data Freedom for Customers with Support for Proxmox VE." August 2024.
+<a href="https://www.veeam.com/company/press-release/veeam-extends-data-freedom-for-customers-with-support-for-proxmox-ve.html">https://www.veeam.com/company/press-release/veeam-extends-data-freedom-for-customers-with-support-for-proxmox-ve.html</a>
 
 ### VirtualBox Extension Pack License
 <!-- slug: virtualbox-extension-pack-license -->

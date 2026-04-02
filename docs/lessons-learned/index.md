@@ -78,6 +78,12 @@ When open source business models collide with cloud providers:
 
     *2024* — The pattern continues
 
+-   :material-server:{ .lg .middle } **[VMware, Broadcom & Proxmox](vmware-proxmox.md)**
+
+    ---
+
+    *2023–present* — When there's no open source escape hatch
+
 </div>
 
 ### The Quirks and Edge Cases

@@ -157,6 +157,7 @@ nav:
       - Elasticsearch Fork: lessons-learned/elasticsearch-opensearch.md
       - HashiCorp and OpenTofu: lessons-learned/hashicorp-opentofu.md
       - Redis Relicensing: lessons-learned/redis-relicensing.md
+      - "VMware & Proxmox": lessons-learned/vmware-proxmox.md
       - Java Licensing: lessons-learned/java-licensing.md
     - Quirks & Edge Cases:
       - The JSON License: lessons-learned/json-license.md

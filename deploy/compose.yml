@@ -1,3 +1,4 @@
+name: open-source-licensing-guide
 services:
   app:
     image: git.dev.xram.net/atmarx/open-source-licensing-guide:latest

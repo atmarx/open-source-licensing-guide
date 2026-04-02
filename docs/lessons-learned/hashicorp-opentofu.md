@@ -55,12 +55,16 @@ These arguments echoed MongoDB and Elastic. The pattern is familiar.
 
 ## The Current State
 
-Both projects continue:
+The story didn't end with a fork.
 
-- **Terraform** — HashiCorp's product, under BSL
-- **OpenTofu** — Linux Foundation project, under [MPL 2.0](../licenses/copyleft/mpl.md)
+In April 2024, IBM announced it was acquiring HashiCorp for $6.4 billion.[^ibm-acquisition]  The deal closed in early 2025, and IBM began integrating Terraform into the Red Hat ecosystem.  The company that relicensed its open source tools to protect its business ended up selling the business entirely.
 
-OpenTofu has diverged from Terraform, adding features HashiCorp rejected. The projects are no longer fully compatible.
+Both projects continue, but the landscape has shifted:
+
+- **Terraform** — now an IBM/Red Hat product, still under BSL.  IBM has signaled continued investment, but the product's future is tied to IBM's hybrid cloud strategy, not HashiCorp's original vision.
+- **OpenTofu** — Linux Foundation project, under [MPL 2.0](../licenses/copyleft/mpl.md).  Now at 95%+ feature parity with Terraform, with its own divergent features like state encryption and provider-defined functions.  Fedora and other distributions have begun adopting it as their default.
+
+OpenTofu isn't just a protest fork anymore — it's a mature alternative with independent momentum.
 
 ## The Lessons
 
@@ -78,9 +82,13 @@ HashiCorp could relicense because their contributor agreements permitted it. Ope
 
 If you contribute to a project, understand [what rights you're granting](../concepts/rights-and-obligations.md).
 
+### Relicensing doesn't always save the company
+
+HashiCorp relicensed to protect its competitive position.  Two years later, they sold to IBM for $6.4 billion.  The BSL switch may have made the company more acquirable — a cleaner commercial product, fewer open source entanglements — but it didn't preserve HashiCorp's independence.  For the community that lost their open source tools, the relicensing now looks less like a survival strategy and more like a prelude to acquisition.
+
 ### Trust is hard to rebuild
 
-HashiCorp wasn't a villain. They made a business decision many companies have made. But the community felt betrayed—especially given the 11-day notice. Whether Terraform or OpenTofu "wins" long-term, the relationship between HashiCorp and its community is permanently changed.
+HashiCorp wasn't a villain. They made a business decision many companies have made. But the community felt betrayed—especially given the 11-day notice. The IBM acquisition added another layer — contributors who built Terraform's ecosystem saw their work absorbed into a corporate product they had no say in selling.
 
 ## For Your Decisions
 
@@ -96,8 +104,9 @@ When building open source:
 - Community trust compounds—and so does its loss
 - If you might need to relicense, structure for it early (and be transparent)
 
-HashiCorp isn't unique. They're just the latest example of a pattern that will continue.
+HashiCorp isn't unique. They're just the most complete example of the pattern: open source builds the community, the company captures the value, and then the company itself gets captured.  The fork survives.  The original doesn't always.
 
 [^hashicorp-bsl]: See [HashiCorp BSL License Change](../reference/sources.md#hashicorp-bsl-license-change)
 [^opentofu]: See [OpenTofu Manifesto](../reference/sources.md#opentofu-manifesto)
 [^opentofu-lf]: See [Linux Foundation OpenTofu Announcement](../reference/sources.md#linux-foundation-opentofu-announcement)
+[^ibm-acquisition]: See [IBM HashiCorp Acquisition](../reference/sources.md#ibm-hashicorp-acquisition)

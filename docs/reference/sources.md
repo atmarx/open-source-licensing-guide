@@ -128,6 +128,11 @@ HashiCorp. "HashiCorp Adopts Business Source License." August 2023.
 
 ## I
 
+### IBM HashiCorp Acquisition
+<!-- slug: ibm-hashicorp-acquisition -->
+IBM. "IBM to Acquire HashiCorp, Inc. Creating a Comprehensive End-to-End Hybrid Cloud Platform." April 2024.
+<a href="https://newsroom.ibm.com/2024-04-24-IBM-to-Acquire-HashiCorp-Inc-Creating-a-Comprehensive-End-to-End-Hybrid-Cloud-Platform">https://newsroom.ibm.com/2024-04-24-IBM-to-Acquire-HashiCorp-Inc-Creating-a-Comprehensive-End-to-End-Hybrid-Cloud-Platform</a>
+
 ### IBM JSON License Exception
 <!-- slug: ibm-json-license-exception -->
 Various. "IBM Obtains JSON License Exception." Referenced in multiple sources. 2011.

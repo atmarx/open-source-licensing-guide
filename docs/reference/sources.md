@@ -13,7 +13,7 @@ The Register. "AT&T claims 1,050% VMware price hike in Broadcom lawsuit filings.
 
 ### Apache Software Foundation Legal FAQ
 <!-- slug: apache-software-foundation-legal-faq -->
-Apache Software Foundation. "ASF Legal Previously Asked Questions." Accessed 2024.
+Apache Software Foundation. "ASF Legal Previously Asked Questions." Accessed 2026.
 <a href="https://www.apache.org/legal/resolved.html">https://www.apache.org/legal/resolved.html</a>
 
 ### Apache License 2.0 Text
@@ -66,12 +66,12 @@ CISPE. "CISPE Takes European Commission to Court to Annul Approval of Broadcom's
 
 ### Creative Commons License Versions
 <!-- slug: creative-commons-license-versions -->
-Creative Commons. "License Versions." Accessed 2024.
+Creative Commons. "License Versions." Accessed 2026.
 <a href="https://creativecommons.org/about/cclicenses/">https://creativecommons.org/about/cclicenses/</a>
 
 ### Crockford's JSON License
 <!-- slug: crockfords-json-license -->
-Crockford, Douglas. "JSON License." Accessed 2024.
+Crockford, Douglas. "JSON License." Accessed 2026.
 <a href="https://www.json.org/license.html">https://www.json.org/license.html</a>
 
 ---
@@ -153,12 +153,12 @@ The Register. "Broadcom terminates VMware's free ESXi hypervisor." February 2024
 
 ### FSF Four Freedoms Definition
 <!-- slug: fsf-four-freedoms-definition -->
-Free Software Foundation. "What is Free Software?" Accessed 2024.
+Free Software Foundation. "What is Free Software?" Accessed 2026.
 <a href="https://www.gnu.org/philosophy/free-sw.html">https://www.gnu.org/philosophy/free-sw.html</a>
 
 ### FSF License Commentary List
 <!-- slug: fsf-license-commentary-list -->
-Free Software Foundation. "Various Licenses and Comments About Them." Accessed 2024.
+Free Software Foundation. "Various Licenses and Comments About Them." Accessed 2026.
 <a href="https://www.gnu.org/licenses/license-list.html">https://www.gnu.org/licenses/license-list.html</a>
 
 ---
@@ -172,7 +172,7 @@ Bird & Bird. "Landmark ruling of the Munich Regional Court (GEMA v OpenAI) on co
 
 ### GPL License History
 <!-- slug: gpl-license-history -->
-Free Software Foundation. "A Brief History of the GPL." Accessed 2024.
+Free Software Foundation. "A Brief History of the GPL." Accessed 2026.
 <a href="https://www.gnu.org/licenses/gpl-history.html">https://www.gnu.org/licenses/gpl-history.html</a>
 
 ### The GNU Manifesto
@@ -251,12 +251,12 @@ Open Source Initiative. "The Open Source AI Definition 1.0." October 2024.
 
 ### Open Source Definition
 <!-- slug: open-source-definition -->
-Open Source Initiative. "The Open Source Definition." Accessed 2024.
+Open Source Initiative. "The Open Source Definition." Accessed 2026.
 <a href="https://opensource.org/osd">https://opensource.org/osd</a>
 
 ### Open Source Initiative History
 <!-- slug: open-source-initiative-history -->
-Open Source Initiative. "History of the OSI." Accessed 2024.
+Open Source Initiative. "History of the OSI." Accessed 2026.
 <a href="https://opensource.org/history">https://opensource.org/history</a>
 
 ### OpenTofu Manifesto
@@ -369,7 +369,7 @@ SCO Group. "Chapter 11 Bankruptcy Filing." September 2007. Court records, Distri
 
 ### SPDX License List
 <!-- slug: spdx-license-list -->
-SPDX Workgroup. "SPDX License List." Accessed 2024.
+SPDX Workgroup. "SPDX License List." Accessed 2026.
 <a href="https://spdx.org/licenses/">https://spdx.org/licenses/</a>
 
 ### SSPL Open Source Initiative Rejection
@@ -379,7 +379,7 @@ Open Source Initiative. "The SSPL Is Not an Open Source License." January 2019.
 
 ### Stack Overflow Content License
 <!-- slug: stack-overflow-content-license -->
-Stack Overflow. "Licensing." Accessed 2024.
+Stack Overflow. "Licensing." Accessed 2026.
 <a href="https://stackoverflow.com/help/licensing">https://stackoverflow.com/help/licensing</a>
 
 ---

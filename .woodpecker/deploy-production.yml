@@ -17,9 +17,9 @@ steps:
     image: alpine:latest
     environment:
       DROPLET_SSH_KEY:
-        from_secret: xdroplet02_ssh_key
+        from_secret: deploy_ssh_key
       DROPLET_HOST:
-        from_secret: xdroplet02_host
+        from_secret: deploy_host
     commands:
       - apk add --no-cache openssh-client
       - mkdir -p ~/.ssh

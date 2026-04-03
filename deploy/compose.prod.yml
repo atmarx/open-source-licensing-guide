@@ -1,0 +1,8 @@
+name: open-source-licensing-guide
+services:
+  app:
+    image: git.dev.xram.net/atmarx/open-source-licensing-guide:latest
+    container_name: open-source-licensing-guide-prod
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3014:3000"

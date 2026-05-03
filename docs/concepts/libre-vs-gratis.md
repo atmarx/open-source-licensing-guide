@@ -50,12 +50,14 @@ When something is free but not open source, ask yourself: what's the actual busi
 
 ### The Four Freedoms
 
-The FSF defines libre software through four freedoms.[^four-freedoms] They're numbered starting from zero because programmers:
+The FSF defines libre software through four freedoms.[^four-freedoms] They're numbered starting from zero because that's how programmers count:
 
-0. The freedom to **run** the program for any purpose
-1. The freedom to **study** how the program works and modify it
-2. The freedom to **redistribute** copies
-3. The freedom to **distribute modified versions**
+<ol start="0">
+<li>The freedom to <strong>run</strong> the program for any purpose</li>
+<li>The freedom to <strong>study</strong> how the program works and modify it</li>
+<li>The freedom to <strong>redistribute</strong> copies</li>
+<li>The freedom to <strong>distribute modified versions</strong></li>
+</ol>
 
 Notice that freedoms 1 and 3 are meaningless without source code. You can't study or meaningfully modify a compiled binary. This is why "open source" requires actual source availability, not just permission in principle.
 

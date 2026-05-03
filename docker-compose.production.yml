@@ -1,0 +1,14 @@
+name: open-source-licensing-guide
+
+services:
+  app:
+    image: ${REGISTRY:-git.dev.xram.net}/${IMAGE_REPO:-atmarx/open-source-licensing-guide}:${IMAGE_TAG:-latest}
+    container_name: open-source-licensing-guide-prod
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3014:3000"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

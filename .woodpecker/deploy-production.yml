@@ -33,7 +33,8 @@ steps:
       - chmod 600 ~/.ssh/id_ed25519
       - ssh-keyscan -H "$DROPLET_HOST" "$DROPLET_IP" >> ~/.ssh/known_hosts 2>/dev/null
       - ssh -o StrictHostKeyChecking=accept-new deploy@"$DROPLET_HOST" "mkdir -p /opt/projects/open-source-licensing-guide/caddy /opt/projects/open-source-licensing-guide/_staged"
-      - rsync -az docker-compose.production.yml caddy/open-source-licensing-guide.caddy scripts/deploy-production.sh deploy@"$DROPLET_HOST":/opt/projects/open-source-licensing-guide/_staged/
-      - ssh -o StrictHostKeyChecking=accept-new deploy@"$DROPLET_HOST" "bash /opt/projects/open-source-licensing-guide/_staged/deploy-production.sh"
+      - rsync -az docker-compose.production.yml deploy@"$DROPLET_HOST":/opt/projects/open-source-licensing-guide/_staged/
+      - rsync -az caddy/open-source-licensing-guide.caddy deploy@"$DROPLET_HOST":/opt/projects/open-source-licensing-guide/_staged/
+      - ssh -o StrictHostKeyChecking=accept-new deploy@"$DROPLET_HOST" bash < scripts/deploy-production.sh
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock

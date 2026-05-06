@@ -26,8 +26,8 @@ steps:
         from_secret: droplet04_hostinfo
     commands:
       - apk add --no-cache openssh-client rsync
-      - 'export DROPLET_IP=$(echo "$DROPLET_HOSTINFO" | cut -d"|" -f1)'
-      - 'export DROPLET_HOST=$(echo "$DROPLET_HOSTINFO" | cut -d"|" -f2)'
+      - 'export DROPLET_IP=$(printf "%s" "$DROPLET_HOSTINFO" | tr -d "\r\n" | cut -d"|" -f1)'
+      - 'export DROPLET_HOST=$(printf "%s" "$DROPLET_HOSTINFO" | tr -d "\r\n" | cut -d"|" -f2)'
       - mkdir -p ~/.ssh
       - echo "$DROPLET_SSH_KEY" > ~/.ssh/id_ed25519
       - chmod 600 ~/.ssh/id_ed25519

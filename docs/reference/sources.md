@@ -103,6 +103,16 @@ Patent AI Lab. "GitHub Copilot Lawsuit Update (Feb 2026): Is Your Code Safe?" Fe
 Debian Project. "JSON License Discussion." Debian Legal Mailing List. 2005.
 <a href="https://lists.debian.org/debian-legal/2005/11/msg00154.html">https://lists.debian.org/debian-legal/2005/11/msg00154.html</a>
 
+### Deere Right-to-Repair Settlement
+<!-- slug: deere-right-to-repair-settlement -->
+DTN/Progressive Farmer. "John Deere's $99 Million Right-to-Repair Settlement Gets Preliminary Court Approval." May 2026.
+<a href="https://www.dtnpf.com/agriculture/web/ag/equipment/article/2026/05/18/john-deeres-99-million-right-repair">https://www.dtnpf.com/agriculture/web/ag/equipment/article/2026/05/18/john-deeres-99-million-right-repair</a>
+
+### DMCA Section 1201 Repair Exemptions
+<!-- slug: dmca-section-1201-repair-exemptions -->
+U.S. Copyright Office. "Section 1201 Rulemaking: Exemptions to Prohibition Against Circumvention of Technological Measures." 2015, 2018, 2021, 2024 cycles.
+<a href="https://www.copyright.gov/1201/">https://www.copyright.gov/1201/</a>
+
 ---
 
 ## E
@@ -142,6 +152,16 @@ IT Pro. "Elastic returns to open source, but can it regain the community's trust
 Amazon Web Services. "Introducing OpenSearch." April 2021.
 <a href="https://aws.amazon.com/blogs/opensource/introducing-opensearch/">https://aws.amazon.com/blogs/opensource/introducing-opensearch/</a>
 
+### EPA Deere Clean Air Act Repair
+<!-- slug: epa-deere-clean-air-act-repair -->
+Manufacturing Dive. "EPA says Deere can't cite Clean Air Act to limit farm equipment repairs." 2026.
+<a href="https://www.manufacturingdive.com/news/us-epa-manufacturers-clean-air-act-limit-repair-tools-software/811209/">https://www.manufacturingdive.com/news/us-epa-manufacturers-clean-air-act-limit-repair-tools-software/811209/</a>
+
+### EU Repair of Goods Directive
+<!-- slug: eu-repair-of-goods-directive -->
+European Commission. "Directive (EU) 2024/1799 on common rules promoting the repair of goods." Adopted June 13, 2024; applies from July 31, 2026.
+<a href="https://commission.europa.eu/law/law-topic/consumer-protection-law/directive-repair-goods_en">https://commission.europa.eu/law/law-topic/consumer-protection-law/directive-repair-goods_en</a>
+
 ### Free ESXi Hypervisor Discontinued
 <!-- slug: free-esxi-hypervisor-discontinued -->
 The Register. "Broadcom terminates VMware's free ESXi hypervisor." February 2024.
@@ -150,6 +170,11 @@ The Register. "Broadcom terminates VMware's free ESXi hypervisor." February 2024
 ---
 
 ## F
+
+### FTC v. Deere Repair Lawsuit
+<!-- slug: ftc-v-deere-repair-lawsuit -->
+U.S. Federal Trade Commission. "FTC and States Sue Deere & Company for Unfairly Driving Up Equipment Repair Costs for Farmers." January 2025.
+<a href="https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-states-sue-deere-company-unfairly-driving-equipment-repair-costs-farmers">https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-states-sue-deere-company-unfairly-driving-equipment-repair-costs-farmers</a>
 
 ### FSF Four Freedoms Definition
 <!-- slug: fsf-four-freedoms-definition -->

@@ -98,6 +98,12 @@ Where licensing meets the machines:
 
     *2022–present* — Open source licenses meet machine learning
 
+-   :material-wrench-clock:{ .lg .middle } **[Right to Repair](right-to-repair.md)**
+
+    ---
+
+    *2015–present* — When the license owns the machine you bought
+
 </div>
 
 ### The Quirks and Edge Cases

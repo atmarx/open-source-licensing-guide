@@ -31,6 +31,16 @@
   margin: -0.5rem 0;
 }
 
+/* >>> SHELF-PORTABLE ---------------------------------------------------------
+   Everything between these markers travels when this guide is VENDORED into
+   another site (scripts/vendor-into-corpus.sh extracts it into shelf.css).
+
+   The test for being in here is narrow: does the rule match ONLY markup these
+   pages emit?  `.hero`, `.grid.cards.two-column` and `.red-flag` do.  Theme
+   colours, header styling and the terminal admonition palette do NOT — they
+   match every page of whatever site we land in, and a shelf that repaints its
+   host's policy pages yellow has escaped its shelf.
+   -------------------------------------------------------------------------- */
 /* Two-column grid cards */
 .md-typeset .grid.cards.two-column {
   grid-template-columns: repeat(2, 1fr);
@@ -54,6 +64,7 @@
     grid-template-columns: 1fr;
   }
 }
+/* <<< SHELF-PORTABLE */
 
 /* Target highlight: fade in fast, fade out slow */
 @keyframes target-highlight {
@@ -77,6 +88,16 @@
   margin-right: -0.5em;
 }
 
+/* >>> SHELF-PORTABLE ---------------------------------------------------------
+   Everything between these markers travels when this guide is VENDORED into
+   another site (scripts/vendor-into-corpus.sh extracts it into shelf.css).
+
+   The test for being in here is narrow: does the rule match ONLY markup these
+   pages emit?  `.hero`, `.grid.cards.two-column` and `.red-flag` do.  Theme
+   colours, header styling and the terminal admonition palette do NOT — they
+   match every page of whatever site we land in, and a shelf that repaints its
+   host's policy pages yellow has escaped its shelf.
+   -------------------------------------------------------------------------- */
 /* Hero section for homepage */
 .hero {
   position: relative;
@@ -185,6 +206,7 @@
   }
 }
 
+/* <<< SHELF-PORTABLE */
 /* ============================================
    Terminal-style admonitions (VT100 aesthetic)
    All admonitions use the terminal theme with

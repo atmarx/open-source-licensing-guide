@@ -67,9 +67,11 @@ docs/
 
 ## License
 
-This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — Creative Commons Attribution-NonCommercial 4.0 International.
+This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — Creative Commons Attribution-ShareAlike 4.0 International.
 
-You may share and adapt for non-commercial purposes with attribution.
+Share it, adapt it, teach from it, build your institution's version on top of it.  Credit the source and license your version the same way.
+
+*Relicensed from CC BY-NC 4.0 on 2026-08-23.  NC was blocking the thing this guide exists for — institutions vendoring it into corpora that promise forkability.  The guide's own [CC BY-NC page](docs/creative-commons/cc-by-nc.md) had already made the argument.*
 
 ## Contributing
 

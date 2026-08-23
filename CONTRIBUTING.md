@@ -230,4 +230,4 @@ mkdocs build
 
 ## License
 
-Content is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). By contributing, you agree to license your contributions under the same terms.
+Content is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). By contributing, you agree to license your contributions under the same terms — which includes ShareAlike: anything built on this stays open on the same footing.

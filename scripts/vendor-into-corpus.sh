@@ -73,6 +73,10 @@ fi
 REF="$(git rev-parse HEAD)"
 SHORT="$(git rev-parse --short HEAD)"
 TITLE="$(sed -n 's/^site_name: *//p' mkdocs.yml | head -1)"
+# The canonical home, read from the remote rather than hardcoded — a stamp
+# pointing at the wrong repository is worse than one pointing nowhere.
+ORIGIN="$(git remote get-url origin 2>/dev/null || git remote get-url github 2>/dev/null || echo "")"
+ORIGIN="$(printf '%s' "$ORIGIN" | sed -E 's|^git@([^:]+):|https://\1/|; s|\.git$||')"
 DEST="$DOCS_DIR/$SUBPATH"
 
 echo "  guide   : $SRC_ROOT @ $SHORT"
@@ -156,7 +160,7 @@ shelf is refreshed, and the change never reaches anyone else reading the guide.
 
 | | |
 |---|---|
-| **Source** | [$TITLE](https://github.com/) — \`open-source-licensing-guide\` |
+| **Source** | [$TITLE]($ORIGIN) |
 | **Commit** | \`$REF\` |
 | **License** | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — © 2026 Andrew Marx |
 | **Vendored by** | \`scripts/vendor-into-corpus.sh\` |
